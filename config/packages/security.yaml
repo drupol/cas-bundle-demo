@@ -1,0 +1,12 @@
+security:
+    providers:
+        in_memory: { memory: ~ }
+        cas:
+            id: cas.userprovider
+    firewalls:
+        default:
+            anonymous: ~
+            guard:
+                provider: cas
+                authenticators:
+                    - cas.guardauthenticator

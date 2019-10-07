@@ -1,0 +1,5 @@
+imports:
+  - { resource: vendor/drupol/php-conventions/config/php71/grumphp.yml }
+
+parameters:
+    tasks.phpcsfixer2.config: './Resources/Config/Php71.php'
