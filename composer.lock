@@ -225,12 +225,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupol/psrcas.git",
-                "reference": "c036ad1ffc99665c957a0812cb370299cb8f864b"
+                "reference": "92e27fe797d3eaddf5be8eb7a83f122b22d0d66c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupol/psrcas/zipball/c036ad1ffc99665c957a0812cb370299cb8f864b",
-                "reference": "c036ad1ffc99665c957a0812cb370299cb8f864b",
+                "url": "https://api.github.com/repos/drupol/psrcas/zipball/92e27fe797d3eaddf5be8eb7a83f122b22d0d66c",
+                "reference": "92e27fe797d3eaddf5be8eb7a83f122b22d0d66c",
                 "shasum": ""
             },
             "require": {
@@ -277,7 +277,7 @@
                 "psr",
                 "single-sign-on"
             ],
-            "time": "2019-11-12T18:15:53+00:00"
+            "time": "2019-11-14T14:03:06+00:00"
         },
         {
             "name": "monolog/monolog",
