@@ -122,6 +122,9 @@
             "config/packages/nyholm_psr7.yaml"
         ]
     },
+    "ocramius/package-versions": {
+        "version": "1.4.0"
+    },
     "paragonie/random_compat": {
         "version": "v9.99.99"
     },
