@@ -31,7 +31,7 @@
         {% if auth %}
             <a class="nav-link" href="{{ path('cas_bundle_logout') }}">Logout <i class="fas fa-sign-out-alt"></i></a>
         {% else %}
-            <a class="nav-link" href="{{ path('cas_bundle_login') }}">Login <i class="fas fa-sign-in-alt"></i></a>
+            <a class="nav-link" href="{{ path('cas_bundle_login') }}?service={{ app.request.uri }}">Login <i class="fas fa-sign-in-alt"></i></a>
         {% endif %}
     </nav>
 
@@ -44,7 +44,7 @@
                 <a href="{{ path('cas_bundle_logout') }}" class="btn btn-danger btn-lg btn-block">Logout <i class="fas fa-sign-out-alt"></i></a>
                 <a href="{{ path('cas_bundle_login') }}" class="btn btn-info btn-lg btn-block">Login again <i class="fas fa-retweet"></i></a>
             {% else %}
-                <a href="{{ path('cas_bundle_login') }}" class="btn btn-success btn-lg btn-block">Login <i class="fas fa-sign-in-alt"></i></a>
+                <a href="{{ path('cas_bundle_login') }}?service={{ app.request.uri }}" class="btn btn-success btn-lg btn-block">Login <i class="fas fa-sign-in-alt"></i></a>
             {% endif %}
         </p>
     </div>
