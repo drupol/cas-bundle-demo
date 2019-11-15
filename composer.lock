@@ -142,12 +142,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupol/cas-bundle.git",
-                "reference": "cef4c926018432bd6a99b07e51be5331d43c06bc"
+                "reference": "3288be7d673ebd7c71f8a7196a6b21109d3801f0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupol/cas-bundle/zipball/cef4c926018432bd6a99b07e51be5331d43c06bc",
-                "reference": "cef4c926018432bd6a99b07e51be5331d43c06bc",
+                "url": "https://api.github.com/repos/drupol/cas-bundle/zipball/3288be7d673ebd7c71f8a7196a6b21109d3801f0",
+                "reference": "3288be7d673ebd7c71f8a7196a6b21109d3801f0",
                 "shasum": ""
             },
             "require": {
@@ -184,12 +184,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupol/eulogin-bundle.git",
-                "reference": "43c7e3ffd4ce81f3231f2bdd700ae05b8e92deca"
+                "reference": "a91624d48d4f5de92032643d46e9d90182e91c0b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupol/eulogin-bundle/zipball/43c7e3ffd4ce81f3231f2bdd700ae05b8e92deca",
-                "reference": "43c7e3ffd4ce81f3231f2bdd700ae05b8e92deca",
+                "url": "https://api.github.com/repos/drupol/eulogin-bundle/zipball/a91624d48d4f5de92032643d46e9d90182e91c0b",
+                "reference": "a91624d48d4f5de92032643d46e9d90182e91c0b",
                 "shasum": ""
             },
             "require": {
@@ -217,7 +217,7 @@
                 "MIT"
             ],
             "description": "TODO",
-            "time": "2019-11-09T09:17:16+00:00"
+            "time": "2019-11-15T13:10:02+00:00"
         },
         {
             "name": "drupol/psrcas",
@@ -225,12 +225,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupol/psrcas.git",
-                "reference": "ee5cf863a39824fc956b3537f8386b07e4a94693"
+                "reference": "4599a5925675d2fceb6b70cdcf5f5b7bcf422883"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupol/psrcas/zipball/ee5cf863a39824fc956b3537f8386b07e4a94693",
-                "reference": "ee5cf863a39824fc956b3537f8386b07e4a94693",
+                "url": "https://api.github.com/repos/drupol/psrcas/zipball/4599a5925675d2fceb6b70cdcf5f5b7bcf422883",
+                "reference": "4599a5925675d2fceb6b70cdcf5f5b7bcf422883",
                 "shasum": ""
             },
             "require": {
@@ -277,7 +277,7 @@
                 "psr",
                 "single-sign-on"
             ],
-            "time": "2019-11-15T11:50:50+00:00"
+            "time": "2019-11-15T12:36:32+00:00"
         },
         {
             "name": "monolog/monolog",

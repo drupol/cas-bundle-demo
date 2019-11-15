@@ -39,5 +39,7 @@ cas:
       allowed_parameters:
         - service
         - ticket
+        - userDetails
       default_parameters:
+        userDetails: "true"
         format: XML
