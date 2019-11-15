@@ -11,7 +11,6 @@ cas:
       path: /p3/serviceValidate
       allowed_parameters:
         - service
-        - ticket
         - pgtUrl
         - renew
         - format
@@ -30,10 +29,12 @@ cas:
         - targetService
         - pgt
     proxyValidate:
-      path: /proxyValidate
+      path: /p3/proxyValidate
       allowed_parameters:
         - service
         - ticket
         - pgtUrl
+        - format
       default_parameters:
+        format: JSON
         pgtUrl: cas_bundle_proxy_callback
