@@ -15,8 +15,6 @@ cas:
         - service
         - ticket
         - pgtUrl
-        - renew
-        - format
         - ticketTypes
       default_parameters:
         format: JSON
@@ -39,5 +37,7 @@ cas:
         - service
         - ticket
         - pgtUrl
+        - format
       default_parameters:
+        format: JSON
         pgtUrl: cas_bundle_proxy_callback
