@@ -176,7 +176,7 @@
                 "MIT"
             ],
             "description": "TODO",
-            "time": "2019-11-14T12:55:57+00:00"
+            "time": "2019-11-15T13:13:05+00:00"
         },
         {
             "name": "drupol/eulogin-bundle",
@@ -225,12 +225,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupol/psrcas.git",
-                "reference": "4599a5925675d2fceb6b70cdcf5f5b7bcf422883"
+                "reference": "10832eaef897116b0bc56ab46b49e403f110c6b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupol/psrcas/zipball/4599a5925675d2fceb6b70cdcf5f5b7bcf422883",
-                "reference": "4599a5925675d2fceb6b70cdcf5f5b7bcf422883",
+                "url": "https://api.github.com/repos/drupol/psrcas/zipball/10832eaef897116b0bc56ab46b49e403f110c6b6",
+                "reference": "10832eaef897116b0bc56ab46b49e403f110c6b6",
                 "shasum": ""
             },
             "require": {
