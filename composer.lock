@@ -225,12 +225,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupol/psrcas.git",
-                "reference": "a9f18245611a8f03038e59974a72010774653c01"
+                "reference": "8f91946d62ab375215c2cc2197894d529292ee20"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupol/psrcas/zipball/a9f18245611a8f03038e59974a72010774653c01",
-                "reference": "a9f18245611a8f03038e59974a72010774653c01",
+                "url": "https://api.github.com/repos/drupol/psrcas/zipball/8f91946d62ab375215c2cc2197894d529292ee20",
+                "reference": "8f91946d62ab375215c2cc2197894d529292ee20",
                 "shasum": ""
             },
             "require": {
@@ -249,6 +249,7 @@
                 "friends-of-phpspec/phpspec-code-coverage": "^4.3.1 || ^5",
                 "infection/infection": "^0.13.6 || ^0.14",
                 "monolog/monolog": "^1.0",
+                "nunomaduro/phpinsights": "^1.9",
                 "nyholm/psr7": "^1.2.1",
                 "nyholm/psr7-server": "^0.4.0",
                 "phpspec/phpspec": "^5.1.2 || ^6.0",
@@ -277,7 +278,7 @@
                 "psr",
                 "single-sign-on"
             ],
-            "time": "2019-11-18T08:42:33+00:00"
+            "time": "2019-11-18T10:27:39+00:00"
         },
         {
             "name": "monolog/monolog",
