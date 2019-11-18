@@ -15,7 +15,7 @@ cas:
         - service
         - ticket
         - pgtUrl
-        - ticketTypes
+        - format
       default_parameters:
         format: JSON
         pgtUrl: cas_bundle_proxy_callback
