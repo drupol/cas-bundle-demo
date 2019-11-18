@@ -9,6 +9,7 @@
         "drupol/eulogin-bundle": "dev-master",
         "sensio/framework-extra-bundle": "^5.0",
         "symfony/apache-pack": "^1.0",
+        "symfony/cache": "^4.0",
         "symfony/config": "^4.0",
         "symfony/console": "^4.0",
         "symfony/debug-bundle": "^4.0",
