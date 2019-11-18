@@ -6,7 +6,3 @@
 controllers:
     resource: ../src/Controller/
     type: annotation
-
-app:
-    resource: '@CasBundle/Controller/'
-    type:     annotation

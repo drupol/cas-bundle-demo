@@ -1,0 +1,3 @@
+casbundle:
+  resource: '@CasBundle/Controller/'
+  type:     annotation
