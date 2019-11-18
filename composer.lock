@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "46edc9f5c02b49a98368406b7a0baa55",
+    "content-hash": "590a10362f7174fd4927a718e799171f",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -142,12 +142,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupol/cas-bundle.git",
-                "reference": "7f91dbf183d79b88046d7ceb3498b22ee2b81a2c"
+                "reference": "c16ea37838d8ed995ac95994a0ad2a23ad0534aa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupol/cas-bundle/zipball/7f91dbf183d79b88046d7ceb3498b22ee2b81a2c",
-                "reference": "7f91dbf183d79b88046d7ceb3498b22ee2b81a2c",
+                "url": "https://api.github.com/repos/drupol/cas-bundle/zipball/c16ea37838d8ed995ac95994a0ad2a23ad0534aa",
+                "reference": "c16ea37838d8ed995ac95994a0ad2a23ad0534aa",
                 "shasum": ""
             },
             "require": {
@@ -175,7 +175,7 @@
                 "MIT"
             ],
             "description": "A CAS bundle for Symfony 4.",
-            "time": "2019-11-18T14:38:05+00:00"
+            "time": "2019-11-18T14:51:31+00:00"
         },
         {
             "name": "drupol/eulogin-bundle",
