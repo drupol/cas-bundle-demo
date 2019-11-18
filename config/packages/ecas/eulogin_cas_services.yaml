@@ -11,3 +11,6 @@ services:
       $streamFactory: '@nyholm.psr7.psr17_factory'
       $cache: '@cache.app'
       $logger: '@logger'
+
+  eulogin.userprovider:
+    class: drupol\EuloginBundle\Security\Core\User\EuloginUserProvider
