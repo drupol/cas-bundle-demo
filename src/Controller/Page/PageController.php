@@ -132,10 +132,10 @@ class PageController extends DefaultController
         if ($formRequest->isSubmitted()) {
             if (null !== $response = $cas->requestProxyTicket($formRequest->getData())) {
                 $instrospect = Introspector::detect($response);
+
                 if ($instrospect instanceof Proxy) {
                     $pt = $instrospect->getProxyTicket();
                 }
-
             }
         }
 
@@ -152,8 +152,10 @@ class PageController extends DefaultController
             $parameters = $formValidate->getData();
 
             $response = $cas->requestProxyValidate(['service' => $parameters['service'], 'ticket' => $parameters['ticket']]);
+
             if (null !== $response) {
                 $introspect = Introspector::detect($response);
+
                 if ($introspect instanceof ProxyValidate) {
                     $formValidateResult
                         ->add('response', TextareaType::class, ['data' => print_r($introspect->getParsedResponse(), true), 'label' => 'Raw response']);

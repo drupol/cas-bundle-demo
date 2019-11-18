@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a62f728b304ebe2700317e8567fabe7a",
+    "content-hash": "354f59074a553316ded252477d69e280",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -6397,6 +6397,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "drupol/cas-bundle": 20,
         "drupol/eulogin-bundle": 20
     },
     "prefer-stable": true,
