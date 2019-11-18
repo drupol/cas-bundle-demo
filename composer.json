@@ -7,6 +7,7 @@
         "ext-json": "*",
         "ext-simplexml": "*",
         "drupol/eulogin-bundle": "dev-master",
+        "nyholm/psr7": "^1.2.1",
         "sensio/framework-extra-bundle": "^5.0",
         "symfony/apache-pack": "^1.0",
         "symfony/cache": "^4.0",
