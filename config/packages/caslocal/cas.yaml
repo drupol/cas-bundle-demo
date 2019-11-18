@@ -1,0 +1,43 @@
+cas:
+  base_url: https://localhost:8443/cas
+  protocol:
+    login:
+      path: /login
+      allowed_parameters:
+        - service
+        - renew
+        - gateway
+        - renew
+      default_parameters:
+        service: homepage
+    serviceValidate:
+      allowed_parameters:
+        - service
+        - ticket
+        - pgtUrl
+        - format
+      default_parameters:
+        format: JSON
+        pgtUrl: cas_bundle_proxy_callback
+      path: /p3/serviceValidate
+    logout:
+      allowed_parameters:
+        - service
+      default_parameters:
+        service: homepage
+      path: /logout
+    proxy:
+      path: /proxy
+      allowed_parameters:
+        - targetService
+        - pgt
+    proxyValidate:
+      path: /p3/proxyValidate
+      allowed_parameters:
+        - service
+        - ticket
+        - pgtUrl
+        - format
+      default_parameters:
+        format: JSON
+        pgtUrl: cas_bundle_proxy_callback
