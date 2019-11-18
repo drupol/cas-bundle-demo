@@ -1,5 +1,0 @@
-security:
-    providers:
-        in_memory: { memory: ~ }
-        cas:
-            id: eulogin.userprovider
