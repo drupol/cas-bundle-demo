@@ -142,12 +142,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupol/cas-bundle.git",
-                "reference": "3288be7d673ebd7c71f8a7196a6b21109d3801f0"
+                "reference": "aa163fdec39e948482d91ff34deab904b61cc467"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupol/cas-bundle/zipball/3288be7d673ebd7c71f8a7196a6b21109d3801f0",
-                "reference": "3288be7d673ebd7c71f8a7196a6b21109d3801f0",
+                "url": "https://api.github.com/repos/drupol/cas-bundle/zipball/aa163fdec39e948482d91ff34deab904b61cc467",
+                "reference": "aa163fdec39e948482d91ff34deab904b61cc467",
                 "shasum": ""
             },
             "require": {
@@ -176,7 +176,7 @@
                 "MIT"
             ],
             "description": "TODO",
-            "time": "2019-11-15T13:13:05+00:00"
+            "time": "2019-11-18T13:31:38+00:00"
         },
         {
             "name": "drupol/eulogin-bundle",
@@ -225,12 +225,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupol/psrcas.git",
-                "reference": "8f91946d62ab375215c2cc2197894d529292ee20"
+                "reference": "59532bbf3fcc7d7b7852d180ab5bf173a888f83a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupol/psrcas/zipball/8f91946d62ab375215c2cc2197894d529292ee20",
-                "reference": "8f91946d62ab375215c2cc2197894d529292ee20",
+                "url": "https://api.github.com/repos/drupol/psrcas/zipball/59532bbf3fcc7d7b7852d180ab5bf173a888f83a",
+                "reference": "59532bbf3fcc7d7b7852d180ab5bf173a888f83a",
                 "shasum": ""
             },
             "require": {
@@ -249,7 +249,6 @@
                 "friends-of-phpspec/phpspec-code-coverage": "^4.3.1 || ^5",
                 "infection/infection": "^0.13.6 || ^0.14",
                 "monolog/monolog": "^1.0",
-                "nunomaduro/phpinsights": "^1.9",
                 "nyholm/psr7": "^1.2.1",
                 "nyholm/psr7-server": "^0.4.0",
                 "phpspec/phpspec": "^5.1.2 || ^6.0",
@@ -278,7 +277,7 @@
                 "psr",
                 "single-sign-on"
             ],
-            "time": "2019-11-18T10:27:39+00:00"
+            "time": "2019-11-18T10:35:57+00:00"
         },
         {
             "name": "monolog/monolog",
