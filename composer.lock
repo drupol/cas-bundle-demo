@@ -187,12 +187,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupol/eulogin-bundle.git",
-                "reference": "f4fc9bde2192e0d48a97f179327f8e5c04ea0a21"
+                "reference": "0d2b83fc6224696aa5068cdac1c155947380afd4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupol/eulogin-bundle/zipball/f4fc9bde2192e0d48a97f179327f8e5c04ea0a21",
-                "reference": "f4fc9bde2192e0d48a97f179327f8e5c04ea0a21",
+                "url": "https://api.github.com/repos/drupol/eulogin-bundle/zipball/0d2b83fc6224696aa5068cdac1c155947380afd4",
+                "reference": "0d2b83fc6224696aa5068cdac1c155947380afd4",
                 "shasum": ""
             },
             "require": {
@@ -224,7 +224,7 @@
                 "MIT"
             ],
             "description": "A bundle for Symfony 4 providing authentication against European Commission authentication service.",
-            "time": "2019-11-19T12:56:46+00:00"
+            "time": "2019-11-19T13:07:44+00:00"
         },
         {
             "name": "drupol/psrcas",
