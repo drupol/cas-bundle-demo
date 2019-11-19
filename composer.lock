@@ -142,12 +142,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupol/cas-bundle.git",
-                "reference": "02cba0ea9d1d92e765cd529bd33ce677f1cbf9f7"
+                "reference": "fcdc7d6f1786bd4336c928d43b814dcec9366959"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupol/cas-bundle/zipball/02cba0ea9d1d92e765cd529bd33ce677f1cbf9f7",
-                "reference": "02cba0ea9d1d92e765cd529bd33ce677f1cbf9f7",
+                "url": "https://api.github.com/repos/drupol/cas-bundle/zipball/fcdc7d6f1786bd4336c928d43b814dcec9366959",
+                "reference": "fcdc7d6f1786bd4336c928d43b814dcec9366959",
                 "shasum": ""
             },
             "require": {
@@ -156,18 +156,17 @@
                 "ext-simplexml": "*",
                 "php": ">= 7.1.3",
                 "symfony/framework-bundle": "^4",
-                "symfony/psr-http-message-bridge": "^1.2",
-                "symfony/security-bundle": "^4"
+                "symfony/psr-http-message-bridge": "^1.2"
             },
             "require-dev": {
                 "drupol/php-conventions": "^1"
             },
             "suggest": {
-                "monolog/monolog": "For a logger implementation (PSR-3).",
                 "nyholm/psr7": "For a super lightweight PSR-7/17 implementation",
                 "nyholm/psr7-server": "For a PSR-7 implementation of Server Requests.",
                 "symfony/cache": "For a cache implementation (PSR-6).",
-                "symfony/http-client": "For an HTTP client implementation (PSR-18)."
+                "symfony/http-client": "For an HTTP client implementation (PSR-18).",
+                "symfony/monolog-bundle": "For a logger implementation (PSR-3)."
             },
             "type": "symfony-bundle",
             "autoload": {
@@ -180,7 +179,7 @@
                 "MIT"
             ],
             "description": "A CAS bundle for Symfony 4.",
-            "time": "2019-11-18T15:27:04+00:00"
+            "time": "2019-11-19T11:06:53+00:00"
         },
         {
             "name": "drupol/eulogin-bundle",
@@ -188,12 +187,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupol/eulogin-bundle.git",
-                "reference": "0f05c4ad7bb648db29b0305cecb5de5f8489fa29"
+                "reference": "2def355acbeb277beab78e5cdcd91d936ac8ce31"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupol/eulogin-bundle/zipball/0f05c4ad7bb648db29b0305cecb5de5f8489fa29",
-                "reference": "0f05c4ad7bb648db29b0305cecb5de5f8489fa29",
+                "url": "https://api.github.com/repos/drupol/eulogin-bundle/zipball/2def355acbeb277beab78e5cdcd91d936ac8ce31",
+                "reference": "2def355acbeb277beab78e5cdcd91d936ac8ce31",
                 "shasum": ""
             },
             "require": {
@@ -225,7 +224,7 @@
                 "MIT"
             ],
             "description": "A bundle for Symfony 4 providing authentication against European Commission authentication service.",
-            "time": "2019-11-18T16:49:50+00:00"
+            "time": "2019-11-19T11:07:01+00:00"
         },
         {
             "name": "drupol/psrcas",
@@ -233,12 +232,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupol/psrcas.git",
-                "reference": "59532bbf3fcc7d7b7852d180ab5bf173a888f83a"
+                "reference": "9007fd6b8e5f30d2c69ff714ed21a8cdb4790d5c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupol/psrcas/zipball/59532bbf3fcc7d7b7852d180ab5bf173a888f83a",
-                "reference": "59532bbf3fcc7d7b7852d180ab5bf173a888f83a",
+                "url": "https://api.github.com/repos/drupol/psrcas/zipball/9007fd6b8e5f30d2c69ff714ed21a8cdb4790d5c",
+                "reference": "9007fd6b8e5f30d2c69ff714ed21a8cdb4790d5c",
                 "shasum": ""
             },
             "require": {
@@ -285,7 +284,7 @@
                 "psr",
                 "single-sign-on"
             ],
-            "time": "2019-11-18T10:35:57+00:00"
+            "time": "2019-11-19T07:38:54+00:00"
         },
         {
             "name": "monolog/monolog",
