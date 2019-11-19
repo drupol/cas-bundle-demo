@@ -19,7 +19,7 @@ class DefaultController extends AbstractController
             /** @var \drupol\EuloginBundle\Security\Core\User\EuloginUser $user */
             $welcome = sprintf(
                 'Welcome back, %s !',
-                null === $user->getFirstName() ? $user->getUsername() : $user->getFirstName() . ' ' . ucfirst(mb_strtolower($user->getLastName()))
+                null === $user->get('firstName') ? $user->getUser() : $user->get('firstName') . ' ' . ucfirst(mb_strtolower($user->get('lastName')))
             );
         }
 
