@@ -28,7 +28,7 @@
         <a class="nav-link" href="{{ path('page_pgtrequest') }}"><i class="fas fa-arrows-alt"></i> Proxy</a>
         <a class="nav-link" href="{{ path('page_gateway') }}"><i class="fas fa-exchange-alt"></i> Gateway</a>
         <a class="nav-link" href="{{ path('page_forcelogin') }}"><i class="fas fa-retweet"></i> Renew login</a>
-        {% if auth %}
+        {% if user %}
             <a class="nav-link" href="{{ path('cas_bundle_logout') }}">Logout <i class="fas fa-sign-out-alt"></i></a>
         {% else %}
             <a class="nav-link" href="{{ path('cas_bundle_login') }}?service={{ app.request.uri }}">Login <i class="fas fa-sign-in-alt"></i></a>
@@ -36,11 +36,19 @@
     </nav>
 
     <div class="jumbotron">
-        <h1 class="display-4">{{ welcome }}</h1>
-        <p class="lead"><b>CAS bundle</b> integration in Symfony {{ constant('Symfony\\Component\\HttpKernel\\Kernel::VERSION') }} application.</p>
+        {% if (user) %}
+            {% if (user.getAttribute('firstName')) %}
+                <h1 class="display-4">Welcome back <em>{{ user.getAttribute('firstName')|capitalize }} {{ user.getAttribute('lastName')|capitalize }}</em>!</h1>
+            {% else %}
+                <h1 class="display-4">Welcome back <em>{{ user.getUser() }}</em>!</h1>
+            {% endif %}
+        {% else %}
+            <h1 class="display-4">Welcome <em>guest</em>!</h1>
+        {% endif %}
+        <p class="lead"><b>CAS bundle</b> integration in <b>Symfony {{ constant('Symfony\\Component\\HttpKernel\\Kernel::VERSION') }}</b> application.</p>
         <hr class="my-4">
         <p class="lead">
-            {% if auth %}
+            {% if user %}
                 <a href="{{ path('cas_bundle_logout') }}" class="btn btn-danger btn-lg btn-block">Logout <i class="fas fa-sign-out-alt"></i></a>
                 <a href="{{ path('cas_bundle_login') }}" class="btn btn-info btn-lg btn-block">Login again <i class="fas fa-retweet"></i></a>
             {% else %}
@@ -53,7 +61,7 @@
 
     <hr/>
 
-    {% if auth %}
+    {% if user %}
         <p>
             <button class="btn btn-success btn-lg btn-block" type="button" data-toggle="collapse" data-target="#user" aria-expanded="false" aria-controls="user">
                 <i class="fas fa-user"></i> User information

@@ -9,26 +9,24 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Annotation\Route;
 
+/**
+ * Class DefaultController.
+ */
 class DefaultController extends AbstractController
 {
+
+    /**
+     * @param \drupol\psrcas\CasInterface $casProtocol
+     * @param \Symfony\Component\HttpFoundation\Request $request
+     *
+     * @return array
+     */
     public function defaultVars(CasInterface $casProtocol, Request $request)
     {
-        $welcome = 'Welcome, guest !';
-
-        if (null !== $user = $this->getUser()) {
-            /** @var \drupol\EuloginBundle\Security\Core\User\EuloginUser $user */
-            $welcome = sprintf(
-                'Welcome back, %s !',
-                null === $user->get('firstName') ? $user->getUser() : $user->get('firstName') . ' ' . ucfirst(mb_strtolower($user->get('lastName')))
-            );
-        }
-
         return [
-            'welcome' => $welcome,
             'properties' => $casProtocol->getProperties(),
             'server' => $request->server,
             'session' => $request->getSession()->all(),
-            'auth' => null !== $this->getUser(),
             'user' => $this->getUser(),
         ];
     }
