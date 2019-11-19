@@ -23,17 +23,16 @@ class PageController extends DefaultController
      * @Route("/page/denied", name="page_denied")
      *
      * @param Request $request
-     * @param CasInterface $casProtocol
      *
      * @return \Symfony\Component\HttpFoundation\Response
      */
-    public function pageDeniedAction(Request $request, CasInterface $casProtocol)
+    public function pageDeniedAction(Request $request)
     {
         if (null === $this->getUser()) {
             return new Response('Denied', 403);
         }
 
-        return $this->render('page/denied.html.twig', $this->defaultVars($casProtocol, $request));
+        return $this->render('page/denied.html.twig', $this->defaultVars($request));
     }
 
     /**
@@ -53,7 +52,7 @@ class PageController extends DefaultController
             return $response;
         }
 
-        return $this->render('page/forcelogin.html.twig', $this->defaultVars($cas, $request));
+        return $this->render('page/forcelogin.html.twig', $this->defaultVars($request));
     }
 
     /**
@@ -73,39 +72,38 @@ class PageController extends DefaultController
             return $response;
         }
 
-        return $this->render('page/gateway.html.twig', $this->defaultVars($cas, $request));
+        return $this->render('page/gateway.html.twig', $this->defaultVars($request));
     }
 
     /**
      * @Route("/page/restricted", name="page_restricted")
      *
      * @param Request $request
-     * @param CasInterface $casProtocol
+     * @param CasInterface $cas
      *
      * @return \Psr\Http\Message\ResponseInterface|\Symfony\Component\HttpFoundation\Response|null
      */
-    public function pageRestrictedAction(Request $request, CasInterface $casProtocol)
+    public function pageRestrictedAction(Request $request, CasInterface $cas)
     {
         if (null === $this->getUser()) {
-            if (null !== $response = $casProtocol->login(['service' => $request->getUri()])) {
+            if (null !== $response = $cas->login(['service' => $request->getUri()])) {
                 return $response;
             }
         }
 
-        return $this->render('page/restricted.html.twig', $this->defaultVars($casProtocol, $request));
+        return $this->render('page/restricted.html.twig', $this->defaultVars($request));
     }
 
     /**
      * @Route("/page/simple", name="page_simple")
      *
      * @param Request $request
-     * @param CasInterface $casProtocol
      *
      * @return \Symfony\Component\HttpFoundation\Response
      */
-    public function pageSimpleAction(Request $request, CasInterface $casProtocol)
+    public function pageSimpleAction(Request $request)
     {
-        return $this->render('page/simple.html.twig', $this->defaultVars($casProtocol, $request));
+        return $this->render('page/simple.html.twig', $this->defaultVars($request));
     }
 
     /**
@@ -167,7 +165,7 @@ class PageController extends DefaultController
         $vars['formValidate'] = $formValidate->createView();
         $vars['formValidateResult'] = $formValidateResult->getForm()->createView();
 
-        $vars = $this->defaultVars($cas, $request) + $vars;
+        $vars = $this->defaultVars($request) + $vars;
 
         return $this->render('page/pgtrequest.html.twig', $vars);
     }

@@ -16,15 +16,17 @@ class DefaultController extends AbstractController
 {
 
     /**
-     * @param \drupol\psrcas\CasInterface $casProtocol
      * @param \Symfony\Component\HttpFoundation\Request $request
      *
      * @return array
      */
-    public function defaultVars(CasInterface $casProtocol, Request $request)
+    public function defaultVars(Request $request)
     {
+        /** @var \Symfony\Component\DependencyInjection\ParameterBag\ParameterBag $parameter_bag */
+        $parameter_bag = $this->container->get('parameter_bag');
+
         return [
-            'properties' => $casProtocol->getProperties()->all(),
+            'properties' => $parameter_bag->get('cas'),
             'server' => $request->server,
             'session' => $request->getSession()->all(),
             'user' => $this->getUser(),
@@ -35,13 +37,11 @@ class DefaultController extends AbstractController
      * @Route("/", name="homepage")
      *
      * @param Request $request
-     * @param CasInterface $casProtocol
      *
      * @return \Symfony\Component\HttpFoundation\Response
      */
-    public function indexAction(Request $request, CasInterface $casProtocol)
+    public function indexAction(Request $request)
     {
-        // replace this example code with whatever you need
-        return $this->render('default/index.html.twig', $this->defaultVars($casProtocol, $request));
+        return $this->render('default/index.html.twig', $this->defaultVars($request));
     }
 }
