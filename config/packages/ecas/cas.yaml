@@ -38,6 +38,9 @@ cas:
         - service
         - ticket
         - userDetails
+        - pgtUrl
+        - format
       default_parameters:
         userDetails: "true"
         format: XML
+        pgtUrl: cas_bundle_proxy_callback
