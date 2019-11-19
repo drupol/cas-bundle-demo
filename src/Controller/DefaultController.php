@@ -24,7 +24,7 @@ class DefaultController extends AbstractController
     public function defaultVars(CasInterface $casProtocol, Request $request)
     {
         return [
-            'properties' => $casProtocol->getProperties(),
+            'properties' => $casProtocol->getProperties()->all(),
             'server' => $request->server,
             'session' => $request->getSession()->all(),
             'user' => $this->getUser(),
