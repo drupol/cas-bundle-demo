@@ -9,7 +9,7 @@ use App\Form\Type\PgtRequest;
 use App\Form\Type\PgtValidate;
 use drupol\psrcas\CasInterface;
 use drupol\psrcas\Introspection\Contract\Proxy;
-use drupol\psrcas\Introspection\Contract\ProxyValidate;
+use drupol\psrcas\Introspection\Contract\ServiceValidate;
 use drupol\psrcas\Introspection\Introspector;
 use Symfony\Component\Form\Extension\Core\Type\TextareaType;
 use Symfony\Component\HttpFoundation\Request;
@@ -154,7 +154,7 @@ class PageController extends DefaultController
             if (null !== $response) {
                 $introspect = Introspector::detect($response);
 
-                if ($introspect instanceof ProxyValidate) {
+                if ($introspect instanceof ServiceValidate) {
                     $formValidateResult
                         ->add('response', TextareaType::class, ['data' => print_r($introspect->getParsedResponse(), true), 'label' => 'Raw response']);
                 }
