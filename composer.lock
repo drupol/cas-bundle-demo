@@ -5349,16 +5349,16 @@
         },
         {
             "name": "nette/php-generator",
-            "version": "v3.3.0",
+            "version": "v3.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/php-generator.git",
-                "reference": "758077b90e86093d4f50e586720c8a47ad77e9d7"
+                "reference": "4240fd7adf499138c07b814ef9b9a6df9f6d7187"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/php-generator/zipball/758077b90e86093d4f50e586720c8a47ad77e9d7",
-                "reference": "758077b90e86093d4f50e586720c8a47ad77e9d7",
+                "url": "https://api.github.com/repos/nette/php-generator/zipball/4240fd7adf499138c07b814ef9b9a6df9f6d7187",
+                "reference": "4240fd7adf499138c07b814ef9b9a6df9f6d7187",
                 "shasum": ""
             },
             "require": {
@@ -5404,7 +5404,7 @@
                 "php",
                 "scaffolding"
             ],
-            "time": "2019-11-20T16:40:58+00:00"
+            "time": "2019-11-22T11:12:11+00:00"
         },
         {
             "name": "nette/robot-loader",
