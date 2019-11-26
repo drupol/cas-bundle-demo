@@ -96,7 +96,7 @@
         "version": "v3.0.0"
     },
     "nette/php-generator": {
-        "version": "v3.3.0"
+        "version": "v3.3.1"
     },
     "nette/robot-loader": {
         "version": "v3.2.0"
@@ -369,7 +369,7 @@
         "version": "v5.0.0"
     },
     "symfony/psr-http-message-bridge": {
-        "version": "v1.2.0"
+        "version": "v1.3.0"
     },
     "symfony/routing": {
         "version": "4.2",
@@ -407,7 +407,7 @@
         "version": "v2.0.0"
     },
     "symfony/stopwatch": {
-        "version": "v4.4.0"
+        "version": "v5.0.0"
     },
     "symfony/translation-contracts": {
         "version": "v2.0.0"

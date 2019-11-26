@@ -56,4 +56,6 @@ services:
 
     drupol\CasBundle\Controller\:
         resource: '@CasBundle/Controller/'
+        autowire: true
+        autoconfigure: true
         tags: ['controller.service_arguments']

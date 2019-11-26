@@ -7,6 +7,8 @@ cas:
         - service
         - renew
         - gateway
+      default_parameters:
+        service: cas_bundle_homepage
     serviceValidate:
       path: /p3/serviceValidate
       allowed_parameters:
@@ -22,7 +24,7 @@ cas:
       allowed_parameters:
         - service
       default_parameters:
-        service: homepage
+        service: cas_bundle_homepage
     proxy:
       path: /proxy
       allowed_parameters:

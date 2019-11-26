@@ -1,3 +1,3 @@
-casbundle:
-  resource: '@CasBundle/Controller/'
-  type:     annotation
+cas_bundle:
+  resource: '@CasBundle/Resources/routing.xml'
+  prefix: /cas
