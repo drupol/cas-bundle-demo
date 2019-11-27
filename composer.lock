@@ -142,12 +142,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupol/cas-bundle.git",
-                "reference": "e470035ad14340365c21620b75d9e19943a5591a"
+                "reference": "0f528dd05db3500fbe39bfceb51baf02ab9f442f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupol/cas-bundle/zipball/e470035ad14340365c21620b75d9e19943a5591a",
-                "reference": "e470035ad14340365c21620b75d9e19943a5591a",
+                "url": "https://api.github.com/repos/drupol/cas-bundle/zipball/0f528dd05db3500fbe39bfceb51baf02ab9f442f",
+                "reference": "0f528dd05db3500fbe39bfceb51baf02ab9f442f",
                 "shasum": ""
             },
             "require": {
@@ -164,7 +164,10 @@
                 "symfony/security-bundle": ">= 4.3.8"
             },
             "require-dev": {
-                "drupol/php-conventions": "^1"
+                "drupol/php-conventions": "^1",
+                "friends-of-phpspec/phpspec-code-coverage": "^4.3",
+                "infection/infection": "^0.14.4",
+                "phpspec/phpspec": "^6.0"
             },
             "suggest": {
                 "nyholm/psr7": "For a super lightweight PSR-7/17 implementation",
@@ -184,7 +187,7 @@
                 "MIT"
             ],
             "description": "A CAS bundle for Symfony 4 & 5.",
-            "time": "2019-11-27T07:48:05+00:00"
+            "time": "2019-11-27T11:12:45+00:00"
         },
         {
             "name": "drupol/eulogin-bundle",
