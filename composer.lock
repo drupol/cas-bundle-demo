@@ -142,12 +142,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupol/cas-bundle.git",
-                "reference": "e017dd184bc81f206f039942d87a9d6826dcf57f"
+                "reference": "e470035ad14340365c21620b75d9e19943a5591a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupol/cas-bundle/zipball/e017dd184bc81f206f039942d87a9d6826dcf57f",
-                "reference": "e017dd184bc81f206f039942d87a9d6826dcf57f",
+                "url": "https://api.github.com/repos/drupol/cas-bundle/zipball/e470035ad14340365c21620b75d9e19943a5591a",
+                "reference": "e470035ad14340365c21620b75d9e19943a5591a",
                 "shasum": ""
             },
             "require": {
@@ -183,8 +183,8 @@
             "license": [
                 "MIT"
             ],
-            "description": "A CAS bundle for Symfony 4.",
-            "time": "2019-11-26T13:10:25+00:00"
+            "description": "A CAS bundle for Symfony 4 & 5.",
+            "time": "2019-11-27T07:48:05+00:00"
         },
         {
             "name": "drupol/eulogin-bundle",
@@ -237,12 +237,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupol/psrcas.git",
-                "reference": "b89f878baf12866e007ac4a13af19bbcabafda30"
+                "reference": "ec812aab04a54d16d898f5f30369e848744eba35"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupol/psrcas/zipball/b89f878baf12866e007ac4a13af19bbcabafda30",
-                "reference": "b89f878baf12866e007ac4a13af19bbcabafda30",
+                "url": "https://api.github.com/repos/drupol/psrcas/zipball/ec812aab04a54d16d898f5f30369e848744eba35",
+                "reference": "ec812aab04a54d16d898f5f30369e848744eba35",
                 "shasum": ""
             },
             "require": {
@@ -289,7 +289,7 @@
                 "psr",
                 "single-sign-on"
             ],
-            "time": "2019-11-25T10:59:01+00:00"
+            "time": "2019-11-26T17:18:33+00:00"
         },
         {
             "name": "monolog/monolog",
