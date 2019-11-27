@@ -142,12 +142,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupol/cas-bundle.git",
-                "reference": "2cef4b3965e2e4e3796689f7f5f675607103478d"
+                "reference": "661b4fef8c7e58f53c8118f0b0ceb66c23b9c8b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupol/cas-bundle/zipball/2cef4b3965e2e4e3796689f7f5f675607103478d",
-                "reference": "2cef4b3965e2e4e3796689f7f5f675607103478d",
+                "url": "https://api.github.com/repos/drupol/cas-bundle/zipball/661b4fef8c7e58f53c8118f0b0ceb66c23b9c8b6",
+                "reference": "661b4fef8c7e58f53c8118f0b0ceb66c23b9c8b6",
                 "shasum": ""
             },
             "require": {
@@ -181,7 +181,7 @@
                 "MIT"
             ],
             "description": "A CAS bundle for Symfony 4 & 5.",
-            "time": "2019-11-27T13:42:32+00:00"
+            "time": "2019-11-27T13:52:31+00:00"
         },
         {
             "name": "drupol/eulogin-bundle",
