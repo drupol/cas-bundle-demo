@@ -142,12 +142,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupol/cas-bundle.git",
-                "reference": "661b4fef8c7e58f53c8118f0b0ceb66c23b9c8b6"
+                "reference": "24d563a6e558cd6d1b5d3a5da6de3079d72609cd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupol/cas-bundle/zipball/661b4fef8c7e58f53c8118f0b0ceb66c23b9c8b6",
-                "reference": "661b4fef8c7e58f53c8118f0b0ceb66c23b9c8b6",
+                "url": "https://api.github.com/repos/drupol/cas-bundle/zipball/24d563a6e558cd6d1b5d3a5da6de3079d72609cd",
+                "reference": "24d563a6e558cd6d1b5d3a5da6de3079d72609cd",
                 "shasum": ""
             },
             "require": {
@@ -162,6 +162,10 @@
                 "symfony/monolog-bundle": "^3.5",
                 "symfony/psr-http-message-bridge": "^1.2",
                 "symfony/security-bundle": "^5"
+            },
+            "require-dev": {
+                "friends-of-phpspec/phpspec-code-coverage": "dev-master",
+                "phpspec/phpspec": "dev-master"
             },
             "suggest": {
                 "nyholm/psr7": "For a super lightweight PSR-7/17 implementation",
@@ -181,7 +185,7 @@
                 "MIT"
             ],
             "description": "A CAS bundle for Symfony 4 & 5.",
-            "time": "2019-11-27T13:52:31+00:00"
+            "time": "2019-11-28T08:58:32+00:00"
         },
         {
             "name": "drupol/eulogin-bundle",
@@ -234,12 +238,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupol/psrcas.git",
-                "reference": "ec812aab04a54d16d898f5f30369e848744eba35"
+                "reference": "c4eddd8fc8c7b3885f27f06b72303f2da99038b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupol/psrcas/zipball/ec812aab04a54d16d898f5f30369e848744eba35",
-                "reference": "ec812aab04a54d16d898f5f30369e848744eba35",
+                "url": "https://api.github.com/repos/drupol/psrcas/zipball/c4eddd8fc8c7b3885f27f06b72303f2da99038b4",
+                "reference": "c4eddd8fc8c7b3885f27f06b72303f2da99038b4",
                 "shasum": ""
             },
             "require": {
@@ -261,11 +265,8 @@
                 "nyholm/psr7": "^1.2.1",
                 "nyholm/psr7-server": "^0.4.0",
                 "phpspec/phpspec": "^5.1.2 || ^6.0",
-                "phpspec/prophecy": "^1.9",
                 "phpstan/phpstan-strict-rules": "^0.11.1",
-                "phpunit/php-code-coverage": "^6.1.4 || ^7.0.8",
                 "scrutinizer/ocular": "^1.6",
-                "sebastian/comparator": "^3",
                 "symfony/cache": "^4.3",
                 "symfony/http-client": "^4.3.6"
             },
@@ -286,7 +287,7 @@
                 "psr",
                 "single-sign-on"
             ],
-            "time": "2019-11-26T17:18:33+00:00"
+            "time": "2019-11-28T07:16:47+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -2597,16 +2598,16 @@
         },
         {
             "name": "symfony/polyfill-intl-icu",
-            "version": "v1.12.0",
+            "version": "v1.13.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-icu.git",
-                "reference": "66810b9d6eb4af54d543867909d65ab9af654d7e"
+                "reference": "b3dffd68afa61ca70f2327f2dd9bbeb6aa53d70b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-icu/zipball/66810b9d6eb4af54d543867909d65ab9af654d7e",
-                "reference": "66810b9d6eb4af54d543867909d65ab9af654d7e",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-icu/zipball/b3dffd68afa61ca70f2327f2dd9bbeb6aa53d70b",
+                "reference": "b3dffd68afa61ca70f2327f2dd9bbeb6aa53d70b",
                 "shasum": ""
             },
             "require": {
@@ -2619,7 +2620,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.12-dev"
+                    "dev-master": "1.13-dev"
                 }
             },
             "autoload": {
@@ -2651,20 +2652,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2019-08-06T08:03:45+00:00"
+            "time": "2019-11-27T13:56:44+00:00"
         },
         {
             "name": "symfony/polyfill-intl-idn",
-            "version": "v1.12.0",
+            "version": "v1.13.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-idn.git",
-                "reference": "6af626ae6fa37d396dc90a399c0ff08e5cfc45b2"
+                "reference": "6f9c239e61e1b0c9229a28ff89a812dc449c3d46"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/6af626ae6fa37d396dc90a399c0ff08e5cfc45b2",
-                "reference": "6af626ae6fa37d396dc90a399c0ff08e5cfc45b2",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/6f9c239e61e1b0c9229a28ff89a812dc449c3d46",
+                "reference": "6f9c239e61e1b0c9229a28ff89a812dc449c3d46",
                 "shasum": ""
             },
             "require": {
@@ -2678,7 +2679,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.12-dev"
+                    "dev-master": "1.13-dev"
                 }
             },
             "autoload": {
@@ -2713,20 +2714,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2019-08-06T08:03:45+00:00"
+            "time": "2019-11-27T13:56:44+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.12.0",
+            "version": "v1.13.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "b42a2f66e8f1b15ccf25652c3424265923eb4f17"
+                "reference": "7b4aab9743c30be783b73de055d24a39cf4b954f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/b42a2f66e8f1b15ccf25652c3424265923eb4f17",
-                "reference": "b42a2f66e8f1b15ccf25652c3424265923eb4f17",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/7b4aab9743c30be783b73de055d24a39cf4b954f",
+                "reference": "7b4aab9743c30be783b73de055d24a39cf4b954f",
                 "shasum": ""
             },
             "require": {
@@ -2738,7 +2739,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.12-dev"
+                    "dev-master": "1.13-dev"
                 }
             },
             "autoload": {
@@ -2772,20 +2773,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2019-08-06T08:03:45+00:00"
+            "time": "2019-11-27T14:18:11+00:00"
         },
         {
             "name": "symfony/polyfill-php73",
-            "version": "v1.12.0",
+            "version": "v1.13.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php73.git",
-                "reference": "2ceb49eaccb9352bff54d22570276bb75ba4a188"
+                "reference": "4b0e2222c55a25b4541305a053013d5647d3a25f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php73/zipball/2ceb49eaccb9352bff54d22570276bb75ba4a188",
-                "reference": "2ceb49eaccb9352bff54d22570276bb75ba4a188",
+                "url": "https://api.github.com/repos/symfony/polyfill-php73/zipball/4b0e2222c55a25b4541305a053013d5647d3a25f",
+                "reference": "4b0e2222c55a25b4541305a053013d5647d3a25f",
                 "shasum": ""
             },
             "require": {
@@ -2794,7 +2795,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.12-dev"
+                    "dev-master": "1.13-dev"
                 }
             },
             "autoload": {
@@ -2830,7 +2831,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2019-08-06T08:03:45+00:00"
+            "time": "2019-11-27T16:25:15+00:00"
         },
         {
             "name": "symfony/property-access",
