@@ -17,11 +17,23 @@
     "drupol/cas-bundle": {
         "version": "dev-master"
     },
+    "drupol/ecl-twig-bundle": {
+        "version": "0.1",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "master",
+            "version": "0.1",
+            "ref": "a7bf4baa5f5ac2f27c61d88fee1e43ce22f5c9b2"
+        }
+    },
     "drupol/eulogin-bundle": {
         "version": "dev-master"
     },
     "drupol/psrcas": {
         "version": "dev-master"
+    },
+    "ec-europa/ecl-twig": {
+        "version": "v2.16.0"
     },
     "monolog/monolog": {
         "version": "2.0.1"
@@ -80,7 +92,7 @@
             "repo": "github.com/symfony/recipes-contrib",
             "branch": "master",
             "version": "1.0",
-            "ref": "c82bead70f9a4f656354a193df7bf0ca2114efa0"
+            "ref": "410b9325a37ef86f1e47262c61738f6202202bca"
         },
         "files": [
             "public/.htaccess"
@@ -219,16 +231,16 @@
         "version": "v5.0.0"
     },
     "symfony/polyfill-intl-icu": {
-        "version": "v1.12.0"
+        "version": "v1.13.0"
     },
     "symfony/polyfill-intl-idn": {
-        "version": "v1.12.0"
+        "version": "v1.13.0"
     },
     "symfony/polyfill-mbstring": {
-        "version": "v1.12.0"
+        "version": "v1.13.0"
     },
     "symfony/polyfill-php73": {
-        "version": "v1.12.0"
+        "version": "v1.13.0"
     },
     "symfony/property-access": {
         "version": "v5.0.0"
