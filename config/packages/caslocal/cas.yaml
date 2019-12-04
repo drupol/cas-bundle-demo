@@ -8,8 +8,6 @@ cas:
         - renew
         - gateway
         - renew
-      default_parameters:
-        service: homepage
     serviceValidate:
       allowed_parameters:
         - service

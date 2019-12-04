@@ -6,3 +6,5 @@ security:
                 provider: cas
                 authenticators:
                     - cas.guardauthenticator
+    access_control:
+        - { path: ^/api, role: ROLE_CAS_AUTHENTICATED }

@@ -6,6 +6,7 @@ namespace App\Controller\Api;
 
 use App\Controller\DefaultController;
 use Symfony\Component\HttpFoundation\JsonResponse;
+use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
@@ -15,16 +16,15 @@ use Symfony\Component\Routing\Annotation\Route;
 class Api extends DefaultController
 {
     /**
-     * @Route("/api/test", name="api_test")
+     * @Route("/api", name="page_api")
      *
      * @return \Symfony\Component\HttpFoundation\Response
      */
-    public function apiTest()
+    public function __invoke(Request $request)
     {
-        if (null === $this->getUser()) {
-            return new Response('Denied', 403);
-        }
+        $variables = $this->defaultVars($request);
+        $variables['user'] = (array) $variables['user'];
 
-        return new JsonResponse(['data' => 'It works!', 'auth' => (null !== $this->getUser()) ? 'yes' : 'no']);
+        return new JsonResponse($variables);
     }
 }

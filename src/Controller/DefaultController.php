@@ -25,11 +25,14 @@ class DefaultController extends AbstractController
         /** @var \Symfony\Component\DependencyInjection\ParameterBag\ParameterBag $parameter_bag */
         $parameter_bag = $this->container->get('parameter_bag');
 
+        /** @var \drupol\CasBundle\Security\Core\User\CasUser $user */
+        $user = $this->getUser();
+
         return [
             'properties' => $parameter_bag->get('cas'),
-            'server' => $request->server,
+            'server' => $request->server->all(),
             'session' => $request->getSession()->all(),
-            'user' => $this->getUser(),
+            'user' => $user,
         ];
     }
 

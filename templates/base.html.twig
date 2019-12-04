@@ -25,6 +25,7 @@
         <a class="nav-link" href="{{ path('page_simple') }}"><i class="far fa-file-code"></i> Simple</a>
         <a class="nav-link" href="{{ path('page_restricted') }}"><i class="far fa-file-code"></i> Restricted</a>
         <a class="nav-link" href="{{ path('page_denied') }}"><i class="far fa-file-code"></i> Denied</a>
+        <a class="nav-link" href="{{ path('page_api') }}"><i class="fas fa-exchange-code"></i> API</a>
         <a class="nav-link" href="{{ path('page_pgtrequest') }}"><i class="fas fa-arrows-alt"></i> Proxy</a>
         <a class="nav-link" href="{{ path('page_gateway') }}"><i class="fas fa-exchange-alt"></i> Gateway</a>
         <a class="nav-link" href="{{ path('page_forcelogin') }}"><i class="fas fa-retweet"></i> Renew login</a>
@@ -50,7 +51,7 @@
         <p class="lead">
             {% if user %}
                 <a href="{{ path('cas_bundle_logout') }}" class="btn btn-danger btn-lg btn-block">Logout <i class="fas fa-sign-out-alt"></i></a>
-                <a href="{{ path('cas_bundle_login') }}" class="btn btn-info btn-lg btn-block">Login again <i class="fas fa-retweet"></i></a>
+                <a href="{{ path('cas_bundle_login') }}?service={{ app.request.uri }}&renew=true" class="btn btn-info btn-lg btn-block">Login again <i class="fas fa-retweet"></i></a>
             {% else %}
                 <a href="{{ path('cas_bundle_login') }}?service={{ app.request.uri }}" class="btn btn-success btn-lg btn-block">Login <i class="fas fa-sign-in-alt"></i></a>
             {% endif %}

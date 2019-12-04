@@ -50,6 +50,9 @@
             "config/packages/nyholm_psr7.yaml"
         ]
     },
+    "php": {
+        "version": "7.2"
+    },
     "php-http/message-factory": {
         "version": "v1.0.2"
     },

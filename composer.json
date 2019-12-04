@@ -9,7 +9,6 @@
         "ext-json": "*",
         "ext-simplexml": "*",
         "drupol/cas-bundle": "dev-master",
-        "drupol/ecl-twig-bundle": "^0.1.5",
         "drupol/eulogin-bundle": "dev-master",
         "nyholm/psr7": "^1.2.1",
         "sensio/framework-extra-bundle": "^5.0",

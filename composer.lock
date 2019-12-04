@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1343b14bff72e9f33d28d95036390a9a",
+    "content-hash": "3bc0c8f41ee03c0ff851f2bd41610141",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -142,12 +142,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupol/cas-bundle.git",
-                "reference": "2b66ace8450c669594bb1e7ddbb204fb3c540694"
+                "reference": "e0609b2894620357f97d50c224403a6c873415cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupol/cas-bundle/zipball/2b66ace8450c669594bb1e7ddbb204fb3c540694",
-                "reference": "2b66ace8450c669594bb1e7ddbb204fb3c540694",
+                "url": "https://api.github.com/repos/drupol/cas-bundle/zipball/e0609b2894620357f97d50c224403a6c873415cb",
+                "reference": "e0609b2894620357f97d50c224403a6c873415cb",
                 "shasum": ""
             },
             "require": {
@@ -155,7 +155,7 @@
                 "ext-json": "*",
                 "ext-simplexml": "*",
                 "nyholm/psr7": "^1.2",
-                "php": ">= 7.1.3",
+                "php": ">= 7.2.5",
                 "symfony/cache": "^5",
                 "symfony/framework-bundle": "^5",
                 "symfony/http-client": "^5",
@@ -164,6 +164,7 @@
                 "symfony/security-bundle": "^5"
             },
             "require-dev": {
+                "drupol/php-conventions": "^1.6.8",
                 "friends-of-phpspec/phpspec-code-coverage": "^4.3",
                 "phpspec/phpspec": "^6.1"
             },
@@ -184,48 +185,15 @@
             "license": [
                 "MIT"
             ],
-            "description": "A CAS bundle for Symfony 4 & 5.",
-            "time": "2019-11-28T14:30:22+00:00"
-        },
-        {
-            "name": "drupol/ecl-twig-bundle",
-            "version": "0.1.6",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/drupol/ecl-twig-bundle.git",
-                "reference": "a43cbb9d47f8322ef2a3106d7681a847522f1a1d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/drupol/ecl-twig-bundle/zipball/a43cbb9d47f8322ef2a3106d7681a847522f1a1d",
-                "reference": "a43cbb9d47f8322ef2a3106d7681a847522f1a1d",
-                "shasum": ""
-            },
-            "require": {
-                "ec-europa/ecl-twig": "^2.16.0",
-                "php": ">= 7.1.3",
-                "symfony/framework-bundle": "^4.0 || ^5.0"
-            },
-            "require-dev": {
-                "drupol/php-conventions": "^1.6"
-            },
-            "type": "symfony-bundle",
-            "extra": {
-                "grumphp": {
-                    "config-default-path": "vendor/drupol/php-conventions/config/php71/grumphp.yml"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "drupol\\EclTwigBundle\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
+            "description": "A bundle for Symfony 4 & 5, providing authentication against a Central Authentication Service (CAS) server.",
+            "keywords": [
+                "Authentication",
+                "SSO",
+                "cas",
+                "central authentication service",
+                "single sign-on"
             ],
-            "description": "Use the ECL Twig in your Symfony applications.",
-            "time": "2019-11-28T21:54:08+00:00"
+            "time": "2019-12-04T16:54:44+00:00"
         },
         {
             "name": "drupol/eulogin-bundle",
@@ -233,28 +201,23 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupol/eulogin-bundle.git",
-                "reference": "d38bad5d3c5959459c6ba130c703d03c4ffe0ab9"
+                "reference": "7f356c31ae2c7969621c426fe968a78192845ed1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupol/eulogin-bundle/zipball/d38bad5d3c5959459c6ba130c703d03c4ffe0ab9",
-                "reference": "d38bad5d3c5959459c6ba130c703d03c4ffe0ab9",
+                "url": "https://api.github.com/repos/drupol/eulogin-bundle/zipball/7f356c31ae2c7969621c426fe968a78192845ed1",
+                "reference": "7f356c31ae2c7969621c426fe968a78192845ed1",
                 "shasum": ""
             },
             "require": {
-                "drupol/cas-bundle": "dev-master",
+                "drupol/cas-bundle": "dev-master || 4.4.x-dev",
                 "ext-json": "*",
                 "ext-simplexml": "*",
                 "php": ">= 7.1.3"
             },
             "require-dev": {
                 "friends-of-phpspec/phpspec-code-coverage": "^4.3",
-                "monolog/monolog": "^1.0",
-                "nyholm/psr7": "^1.2.1",
-                "nyholm/psr7-server": "^0.4.0",
-                "phpspec/phpspec": "^6.1",
-                "symfony/cache": "^4.3 || ^5",
-                "symfony/http-client": "^4.3.6 || ^5"
+                "phpspec/phpspec": "^6.1"
             },
             "type": "symfony-bundle",
             "autoload": {
@@ -266,8 +229,17 @@
             "license": [
                 "MIT"
             ],
-            "description": "A bundle for Symfony 4 providing authentication against European Commission authentication service.",
-            "time": "2019-11-28T14:17:21+00:00"
+            "description": "A bundle for Symfony 4 & 5, providing authentication against European Commission authentication service.",
+            "keywords": [
+                "Authentication",
+                "SSO",
+                "cas",
+                "central authentication service",
+                "eulogin",
+                "european commission",
+                "single sign-on"
+            ],
+            "time": "2019-12-03T16:19:46+00:00"
         },
         {
             "name": "drupol/psrcas",
@@ -275,12 +247,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupol/psrcas.git",
-                "reference": "c4eddd8fc8c7b3885f27f06b72303f2da99038b4"
+                "reference": "150f5aed26f90fd16b6c16d051333aad34db4e83"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupol/psrcas/zipball/c4eddd8fc8c7b3885f27f06b72303f2da99038b4",
-                "reference": "c4eddd8fc8c7b3885f27f06b72303f2da99038b4",
+                "url": "https://api.github.com/repos/drupol/psrcas/zipball/150f5aed26f90fd16b6c16d051333aad34db4e83",
+                "reference": "150f5aed26f90fd16b6c16d051333aad34db4e83",
                 "shasum": ""
             },
             "require": {
@@ -324,40 +296,7 @@
                 "psr",
                 "single-sign-on"
             ],
-            "time": "2019-11-28T07:16:47+00:00"
-        },
-        {
-            "name": "ec-europa/ecl-twig",
-            "version": "v2.17.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ec-europa/ecl-twig.git",
-                "reference": "461808dc2fa877a61fbcd0c55139155d4f846bcc"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ec-europa/ecl-twig/zipball/461808dc2fa877a61fbcd0c55139155d4f846bcc",
-                "reference": "461808dc2fa877a61fbcd0c55139155d4f846bcc",
-                "shasum": ""
-            },
-            "require-dev": {
-                "friendsoftwig/twigcs": "^3.1.3",
-                "phpro/grumphp": "^0.16.1"
-            },
-            "type": "library",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "EUPL-1.1"
-            ],
-            "description": "Twig components for the EC new visual identity.",
-            "keywords": [
-                "components",
-                "ecl",
-                "european commission",
-                "storybook",
-                "twig"
-            ],
-            "time": "2019-12-02T13:46:11+00:00"
+            "time": "2019-12-04T16:45:49+00:00"
         },
         {
             "name": "monolog/monolog",
