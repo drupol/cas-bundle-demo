@@ -51,7 +51,7 @@
         ]
     },
     "php": {
-        "version": "7.3"
+        "version": "7.2"
     },
     "php-http/message-factory": {
         "version": "v1.0.2"
