@@ -248,12 +248,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupol/psrcas.git",
-                "reference": "150f5aed26f90fd16b6c16d051333aad34db4e83"
+                "reference": "c869b5ea7063edaf8222d6a7f5126217f794266d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupol/psrcas/zipball/150f5aed26f90fd16b6c16d051333aad34db4e83",
-                "reference": "150f5aed26f90fd16b6c16d051333aad34db4e83",
+                "url": "https://api.github.com/repos/drupol/psrcas/zipball/c869b5ea7063edaf8222d6a7f5126217f794266d",
+                "reference": "c869b5ea7063edaf8222d6a7f5126217f794266d",
                 "shasum": ""
             },
             "require": {
@@ -268,17 +268,16 @@
                 "psr/log": "^1.1.1 || ^1.1.0"
             },
             "require-dev": {
-                "drupol/php-conventions": "^1",
-                "friends-of-phpspec/phpspec-code-coverage": "^4.3.1 || ^5",
-                "infection/infection": "^0.13.6 || ^0.14",
+                "drupol/php-conventions": "^1.6.8",
+                "friends-of-phpspec/phpspec-code-coverage": "^4.3",
+                "infection/infection": "^0.12.2 || ^0.13.6 || ^0.14.4 || ^0.15.0",
                 "monolog/monolog": "^1.0",
                 "nyholm/psr7": "^1.2.1",
-                "nyholm/psr7-server": "^0.4.0",
-                "phpspec/phpspec": "^5.1.2 || ^6.0",
-                "phpstan/phpstan-strict-rules": "^0.11.1",
-                "scrutinizer/ocular": "^1.6",
-                "symfony/cache": "^4.3",
-                "symfony/http-client": "^4.3.6"
+                "nyholm/psr7-server": "^0.4.1",
+                "phpspec/phpspec": "^5.1.2 || ^6.1",
+                "phpstan/phpstan-strict-rules": "^0.12",
+                "symfony/cache": "^4.3 || ^4.4",
+                "symfony/http-client": "^4.4"
             },
             "type": "library",
             "autoload": {
@@ -297,7 +296,7 @@
                 "psr",
                 "single-sign-on"
             ],
-            "time": "2019-12-04T16:45:49+00:00"
+            "time": "2019-12-05T18:38:23+00:00"
         },
         {
             "name": "monolog/monolog",
