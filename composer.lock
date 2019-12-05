@@ -142,12 +142,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupol/cas-bundle.git",
-                "reference": "fb426cd50d76513bbe031bb268004835ece6b9d9"
+                "reference": "f69e42bef8c0b7e38a497d709a5337d96c9b9bd9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupol/cas-bundle/zipball/fb426cd50d76513bbe031bb268004835ece6b9d9",
-                "reference": "fb426cd50d76513bbe031bb268004835ece6b9d9",
+                "url": "https://api.github.com/repos/drupol/cas-bundle/zipball/f69e42bef8c0b7e38a497d709a5337d96c9b9bd9",
+                "reference": "f69e42bef8c0b7e38a497d709a5337d96c9b9bd9",
                 "shasum": ""
             },
             "require": {
@@ -193,7 +193,7 @@
                 "central authentication service",
                 "single sign-on"
             ],
-            "time": "2019-12-04T17:09:17+00:00"
+            "time": "2019-12-05T12:48:31+00:00"
         },
         {
             "name": "drupol/eulogin-bundle",
