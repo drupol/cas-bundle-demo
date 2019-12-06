@@ -1,4 +1,8 @@
 security:
     providers:
-        cas:
+        eulogin:
             id: eulogin.userprovider
+    firewalls:
+        default:
+            guard:
+                provider: eulogin

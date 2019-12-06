@@ -251,12 +251,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupol/eulogin-bundle.git",
-                "reference": "d99bc8fad4f9ba6652ebf1478249faeba76c8633"
+                "reference": "cf1291726e6b93a61c29d203fbe054a932435a08"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupol/eulogin-bundle/zipball/d99bc8fad4f9ba6652ebf1478249faeba76c8633",
-                "reference": "d99bc8fad4f9ba6652ebf1478249faeba76c8633",
+                "url": "https://api.github.com/repos/drupol/eulogin-bundle/zipball/cf1291726e6b93a61c29d203fbe054a932435a08",
+                "reference": "cf1291726e6b93a61c29d203fbe054a932435a08",
                 "shasum": ""
             },
             "require": {
@@ -293,7 +293,7 @@
                 "european commission",
                 "single sign-on"
             ],
-            "time": "2019-12-06T09:53:25+00:00"
+            "time": "2019-12-06T10:45:40+00:00"
         },
         {
             "name": "drupol/psrcas",
