@@ -20,7 +20,7 @@ cas:
       default_parameters:
         userDetails: "true"
         format: XML
-        pgtUrl: cas_bundle_proxy_callback
+        #pgtUrl: cas_bundle_proxy_callback
     logout:
       path: /logout
       allowed_parameters:
@@ -43,4 +43,4 @@ cas:
       default_parameters:
         userDetails: "true"
         format: XML
-        pgtUrl: cas_bundle_proxy_callback
+        #pgtUrl: cas_bundle_proxy_callback
