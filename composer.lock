@@ -202,12 +202,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupol/ecas.git",
-                "reference": "8ba43335c83e7d4e5194b76ddd7c4ca044f352bb"
+                "reference": "15e11555f1fb649c2238eaf020fd05c7f01d9809"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupol/ecas/zipball/8ba43335c83e7d4e5194b76ddd7c4ca044f352bb",
-                "reference": "8ba43335c83e7d4e5194b76ddd7c4ca044f352bb",
+                "url": "https://api.github.com/repos/drupol/ecas/zipball/15e11555f1fb649c2238eaf020fd05c7f01d9809",
+                "reference": "15e11555f1fb649c2238eaf020fd05c7f01d9809",
                 "shasum": ""
             },
             "require": {
@@ -243,7 +243,7 @@
                 }
             ],
             "description": "CAS library to communicate with eCAS/EULogin",
-            "time": "2019-12-06T10:01:00+00:00"
+            "time": "2019-12-06T11:35:58+00:00"
         },
         {
             "name": "drupol/eulogin-bundle",
@@ -251,12 +251,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupol/eulogin-bundle.git",
-                "reference": "cf1291726e6b93a61c29d203fbe054a932435a08"
+                "reference": "352615a335aae1f8d7e67830145f78917dc8be2d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupol/eulogin-bundle/zipball/cf1291726e6b93a61c29d203fbe054a932435a08",
-                "reference": "cf1291726e6b93a61c29d203fbe054a932435a08",
+                "url": "https://api.github.com/repos/drupol/eulogin-bundle/zipball/352615a335aae1f8d7e67830145f78917dc8be2d",
+                "reference": "352615a335aae1f8d7e67830145f78917dc8be2d",
                 "shasum": ""
             },
             "require": {
@@ -293,7 +293,7 @@
                 "european commission",
                 "single sign-on"
             ],
-            "time": "2019-12-06T10:45:40+00:00"
+            "time": "2019-12-06T10:49:24+00:00"
         },
         {
             "name": "drupol/psrcas",
