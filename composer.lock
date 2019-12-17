@@ -142,12 +142,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupol/cas-bundle.git",
-                "reference": "6ad7cfc07760c79bb952b1f7593eafd730f316f2"
+                "reference": "4c651cb057d6d954abf087811bbaa4794104201e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupol/cas-bundle/zipball/6ad7cfc07760c79bb952b1f7593eafd730f316f2",
-                "reference": "6ad7cfc07760c79bb952b1f7593eafd730f316f2",
+                "url": "https://api.github.com/repos/drupol/cas-bundle/zipball/4c651cb057d6d954abf087811bbaa4794104201e",
+                "reference": "4c651cb057d6d954abf087811bbaa4794104201e",
                 "shasum": ""
             },
             "require": {
@@ -194,7 +194,7 @@
                 "central authentication service",
                 "single sign-on"
             ],
-            "time": "2019-12-17T09:51:42+00:00"
+            "time": "2019-12-17T10:10:52+00:00"
         },
         {
             "name": "drupol/ecas",
@@ -251,12 +251,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupol/eulogin-bundle.git",
-                "reference": "74995437a50470b4d107be54991433e98f8351a2"
+                "reference": "0e58fa0b5222b36e3203c70d52afc2587435a66d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupol/eulogin-bundle/zipball/74995437a50470b4d107be54991433e98f8351a2",
-                "reference": "74995437a50470b4d107be54991433e98f8351a2",
+                "url": "https://api.github.com/repos/drupol/eulogin-bundle/zipball/0e58fa0b5222b36e3203c70d52afc2587435a66d",
+                "reference": "0e58fa0b5222b36e3203c70d52afc2587435a66d",
                 "shasum": ""
             },
             "require": {
@@ -293,7 +293,7 @@
                 "european commission",
                 "single sign-on"
             ],
-            "time": "2019-12-17T09:44:45+00:00"
+            "time": "2019-12-17T10:10:20+00:00"
         },
         {
             "name": "drupol/psrcas",
