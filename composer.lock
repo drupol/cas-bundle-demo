@@ -142,12 +142,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupol/cas-bundle.git",
-                "reference": "5ae34948023d99f5e3205b63ae61cef28bd3f6cb"
+                "reference": "6ad7cfc07760c79bb952b1f7593eafd730f316f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupol/cas-bundle/zipball/5ae34948023d99f5e3205b63ae61cef28bd3f6cb",
-                "reference": "5ae34948023d99f5e3205b63ae61cef28bd3f6cb",
+                "url": "https://api.github.com/repos/drupol/cas-bundle/zipball/6ad7cfc07760c79bb952b1f7593eafd730f316f2",
+                "reference": "6ad7cfc07760c79bb952b1f7593eafd730f316f2",
                 "shasum": ""
             },
             "require": {
@@ -194,7 +194,7 @@
                 "central authentication service",
                 "single sign-on"
             ],
-            "time": "2019-12-05T19:41:02+00:00"
+            "time": "2019-12-17T09:51:42+00:00"
         },
         {
             "name": "drupol/ecas",
@@ -251,12 +251,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupol/eulogin-bundle.git",
-                "reference": "352615a335aae1f8d7e67830145f78917dc8be2d"
+                "reference": "74995437a50470b4d107be54991433e98f8351a2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupol/eulogin-bundle/zipball/352615a335aae1f8d7e67830145f78917dc8be2d",
-                "reference": "352615a335aae1f8d7e67830145f78917dc8be2d",
+                "url": "https://api.github.com/repos/drupol/eulogin-bundle/zipball/74995437a50470b4d107be54991433e98f8351a2",
+                "reference": "74995437a50470b4d107be54991433e98f8351a2",
                 "shasum": ""
             },
             "require": {
@@ -293,7 +293,7 @@
                 "european commission",
                 "single sign-on"
             ],
-            "time": "2019-12-06T10:49:24+00:00"
+            "time": "2019-12-17T09:44:45+00:00"
         },
         {
             "name": "drupol/psrcas",
@@ -885,16 +885,16 @@
         },
         {
             "name": "sensio/framework-extra-bundle",
-            "version": "v5.5.1",
+            "version": "v5.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioFrameworkExtraBundle.git",
-                "reference": "dfc2c4df9f7d465a65c770e9feb578fe071636f7"
+                "reference": "92acfcc610e2180c52790ec3ff2e893f67e76b32"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioFrameworkExtraBundle/zipball/dfc2c4df9f7d465a65c770e9feb578fe071636f7",
-                "reference": "dfc2c4df9f7d465a65c770e9feb578fe071636f7",
+                "url": "https://api.github.com/repos/sensiolabs/SensioFrameworkExtraBundle/zipball/92acfcc610e2180c52790ec3ff2e893f67e76b32",
+                "reference": "92acfcc610e2180c52790ec3ff2e893f67e76b32",
                 "shasum": ""
             },
             "require": {
@@ -959,7 +959,7 @@
                 "annotations",
                 "controllers"
             ],
-            "time": "2019-10-16T18:54:45+00:00"
+            "time": "2019-12-12T16:21:49+00:00"
         },
         {
             "name": "symfony/apache-pack",
@@ -1740,16 +1740,16 @@
         },
         {
             "name": "symfony/flex",
-            "version": "v1.5.3",
+            "version": "v1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/flex.git",
-                "reference": "59b42aa1d3385a21683601c15e63eb35d2ebe8a4"
+                "reference": "952f45d1c5077e658cb16a61d11603bee873f968"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/flex/zipball/59b42aa1d3385a21683601c15e63eb35d2ebe8a4",
-                "reference": "59b42aa1d3385a21683601c15e63eb35d2ebe8a4",
+                "url": "https://api.github.com/repos/symfony/flex/zipball/952f45d1c5077e658cb16a61d11603bee873f968",
+                "reference": "952f45d1c5077e658cb16a61d11603bee873f968",
                 "shasum": ""
             },
             "require": {
@@ -1785,7 +1785,7 @@
                 }
             ],
             "description": "Composer plugin for Symfony",
-            "time": "2019-12-01T15:56:52+00:00"
+            "time": "2019-12-13T18:05:11+00:00"
         },
         {
             "name": "symfony/form",
