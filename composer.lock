@@ -142,12 +142,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupol/cas-bundle.git",
-                "reference": "2bfa2352853e3610598695a5a9f7185ff597c518"
+                "reference": "0dfad60a4b0b3ffa062f50b351bbc9162bc970cc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupol/cas-bundle/zipball/2bfa2352853e3610598695a5a9f7185ff597c518",
-                "reference": "2bfa2352853e3610598695a5a9f7185ff597c518",
+                "url": "https://api.github.com/repos/drupol/cas-bundle/zipball/0dfad60a4b0b3ffa062f50b351bbc9162bc970cc",
+                "reference": "0dfad60a4b0b3ffa062f50b351bbc9162bc970cc",
                 "shasum": ""
             },
             "require": {
@@ -164,10 +164,10 @@
                 "symfony/security-bundle": "^5"
             },
             "require-dev": {
-                "drupol/php-conventions": "^1.6.10",
+                "drupol/php-conventions": "^1.6.11",
                 "friends-of-phpspec/phpspec-code-coverage": "^4.3.2",
                 "infection/infection": "^0.15.0",
-                "phpspec/phpspec": "^6.1"
+                "phpspec/phpspec": "^6.1.1"
             },
             "suggest": {
                 "nyholm/psr7": "For a super lightweight PSR-7/17 implementation",
@@ -194,7 +194,7 @@
                 "central authentication service",
                 "single sign-on"
             ],
-            "time": "2019-12-23T20:44:25+00:00"
+            "time": "2020-01-06T10:41:29+00:00"
         },
         {
             "name": "drupol/ecas",
@@ -202,12 +202,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupol/ecas.git",
-                "reference": "15e11555f1fb649c2238eaf020fd05c7f01d9809"
+                "reference": "8d5e98c099271a9d5eeb77582dd01abd13d3af4f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupol/ecas/zipball/15e11555f1fb649c2238eaf020fd05c7f01d9809",
-                "reference": "15e11555f1fb649c2238eaf020fd05c7f01d9809",
+                "url": "https://api.github.com/repos/drupol/ecas/zipball/8d5e98c099271a9d5eeb77582dd01abd13d3af4f",
+                "reference": "8d5e98c099271a9d5eeb77582dd01abd13d3af4f",
                 "shasum": ""
             },
             "require": {
@@ -215,15 +215,15 @@
                 "php": ">= 7.1.3"
             },
             "require-dev": {
-                "drupol/php-conventions": "^1.6.8",
-                "friends-of-phpspec/phpspec-code-coverage": "^4.3",
-                "infection/infection": "^0.12.2 || ^0.13.6 || ^0.14.4 || ^0.15.0",
+                "drupol/php-conventions": "^1.6.11",
+                "friends-of-phpspec/phpspec-code-coverage": "^4.3.2",
+                "infection/infection": "^0.13.6",
                 "monolog/monolog": "^1.0",
                 "nyholm/psr7": "^1.2.1",
                 "nyholm/psr7-server": "^0.4.1",
-                "phpspec/phpspec": "^5.1.2 || ^6.1",
+                "phpspec/phpspec": "^5.1.2",
                 "phpstan/phpstan-strict-rules": "^0.12",
-                "symfony/cache": "^4.3 || ^4.4",
+                "symfony/cache": "^4.4",
                 "symfony/http-client": "^4.4"
             },
             "type": "library",
@@ -243,7 +243,7 @@
                 }
             ],
             "description": "CAS library to communicate with eCAS/EULogin",
-            "time": "2019-12-06T11:35:58+00:00"
+            "time": "2020-01-06T13:01:51+00:00"
         },
         {
             "name": "drupol/eulogin-bundle",
@@ -251,12 +251,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupol/eulogin-bundle.git",
-                "reference": "0e58fa0b5222b36e3203c70d52afc2587435a66d"
+                "reference": "8067b6b6afaa3bc2b5f70ffe7b270417fdb48d19"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupol/eulogin-bundle/zipball/0e58fa0b5222b36e3203c70d52afc2587435a66d",
-                "reference": "0e58fa0b5222b36e3203c70d52afc2587435a66d",
+                "url": "https://api.github.com/repos/drupol/eulogin-bundle/zipball/8067b6b6afaa3bc2b5f70ffe7b270417fdb48d19",
+                "reference": "8067b6b6afaa3bc2b5f70ffe7b270417fdb48d19",
                 "shasum": ""
             },
             "require": {
@@ -267,11 +267,11 @@
                 "php": ">= 7.1.3"
             },
             "require-dev": {
-                "drupol/php-conventions": "^1.6.8",
-                "friends-of-phpspec/phpspec-code-coverage": "^4.3",
-                "infection/infection": ">= 0.13.6",
+                "drupol/php-conventions": "^1.6.11",
+                "friends-of-phpspec/phpspec-code-coverage": "^4.3.2",
+                "infection/infection": "^0.13.6",
                 "nyholm/psr7-server": "^0.4.1",
-                "phpspec/phpspec": "^5.1.2 || ^6.1"
+                "phpspec/phpspec": "^5.1.2"
             },
             "type": "symfony-bundle",
             "autoload": {
@@ -293,7 +293,7 @@
                 "european commission",
                 "single sign-on"
             ],
-            "time": "2019-12-17T10:10:20+00:00"
+            "time": "2020-01-06T12:55:32+00:00"
         },
         {
             "name": "drupol/psrcas",
