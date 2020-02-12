@@ -8,8 +8,8 @@
         "ext-iconv": "*",
         "ext-json": "*",
         "ext-simplexml": "*",
-        "drupol/cas-bundle": "dev-master",
-        "drupol/eulogin-bundle": "dev-master",
+        "ecphp/cas-bundle": "^2",
+        "ecphp/eu-login-bundle": "^2",
         "nyholm/psr7": "^1.2.1",
         "sensio/framework-extra-bundle": "^5.0",
         "symfony/apache-pack": "^1.0",
@@ -71,8 +71,6 @@
             "App\\Tests\\": "tests/"
         }
     },
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "scripts": {
         "post-install-cmd": [
             "@auto-scripts"

@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace App\Controller;
 
-use drupol\psrcas\CasInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Annotation\Route;
@@ -25,7 +24,7 @@ class DefaultController extends AbstractController
         /** @var \Symfony\Component\DependencyInjection\ParameterBag\ParameterBag $parameter_bag */
         $parameter_bag = $this->container->get('parameter_bag');
 
-        /** @var \drupol\CasBundle\Security\Core\User\CasUser $user */
+        /** @var \EcPhp\CasBundle\Security\Core\User\CasUser $user */
         $user = $this->getUser();
 
         return [

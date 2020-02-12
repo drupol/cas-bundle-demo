@@ -1,6 +1,6 @@
 services:
   cas:
-    class: drupol\psrcas\Cas
+    class: EcPhp\CasLib\Cas
     arguments:
       $serverRequest: '@cas.psrrequest'
       $properties: '%cas%'

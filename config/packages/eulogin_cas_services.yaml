@@ -1,8 +1,8 @@
 services:
   eulogin.userprovider:
-    class: drupol\EuloginBundle\Security\Core\User\EuloginUserProvider
+    class: EcPhp\EuLoginBundle\Security\Core\User\EuloginUserProvider
   cas:
-    class: drupol\ecas\Ecas
+    class: EcPhp\Ecas\Ecas
     arguments:
       $serverRequest: '@cas.psrrequest'
       $properties: '@cas.configuration'
