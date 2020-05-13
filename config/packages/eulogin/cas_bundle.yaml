@@ -1,5 +1,5 @@
 cas:
-  base_url: https://heroku-cas-server.herokuapp.com/cas
+  base_url: https://ecas.ec.europa.eu/cas/
   protocol:
     login:
       path: /login
@@ -8,15 +8,21 @@ cas:
         - renew
         - gateway
     serviceValidate:
-      path: /p3/serviceValidate
       allowed_parameters:
         - service
+        - ticket
         - pgtUrl
+        - groups
         - renew
         - format
+        - userDetails
+        - ticketTypes
+      path: /serviceValidate
       default_parameters:
-        format: JSON
-        pgtUrl: cas_bundle_proxy_callback
+        userDetails: "true"
+        format: XML
+        groups: "*"
+        #pgtUrl: cas_bundle_proxy_callback
     logout:
       path: /logout
       allowed_parameters:
@@ -29,12 +35,14 @@ cas:
         - targetService
         - pgt
     proxyValidate:
-      path: /p3/proxyValidate
+      path: /proxyValidate
       allowed_parameters:
         - service
         - ticket
+        - userDetails
         - pgtUrl
         - format
       default_parameters:
-        format: JSON
-        pgtUrl: cas_bundle_proxy_callback
+        userDetails: "true"
+        format: XML
+        #pgtUrl: cas_bundle_proxy_callback

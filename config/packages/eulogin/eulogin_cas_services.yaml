@@ -1,6 +1,6 @@
 services:
   eulogin.userprovider:
-    class: EcPhp\EuLoginBundle\Security\Core\User\EuloginUserProvider
+    class: EcPhp\EuLoginBundle\Security\Core\User\EuLoginUserProvider
   cas:
     class: EcPhp\Ecas\Ecas
     arguments:

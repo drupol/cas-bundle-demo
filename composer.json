@@ -9,7 +9,7 @@
         "ext-json": "*",
         "ext-simplexml": "*",
         "ecphp/cas-bundle": "^2",
-        "ecphp/eu-login-bundle": "^2",
+        "ecphp/eu-login-bundle": "^2.1",
         "nyholm/psr7": "^1.2.1",
         "sensio/framework-extra-bundle": "^5.0",
         "symfony/apache-pack": "^1.0",
