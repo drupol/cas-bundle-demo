@@ -29,6 +29,7 @@
         <a class="nav-link" href="{{ path('page_pgtrequest') }}"><i class="fas fa-arrows-alt"></i> Proxy</a>
         <a class="nav-link" href="{{ path('page_gateway') }}"><i class="fas fa-exchange-alt"></i> Gateway</a>
         <a class="nav-link" href="{{ path('page_forcelogin') }}"><i class="fas fa-retweet"></i> Renew login</a>
+        <a class="nav-link" href="{{ path('configuration') }}"><i class="fas fa-cogs"></i> Configure</a>
         {% if user %}
             <a class="nav-link" href="{{ path('cas_bundle_logout') }}">Logout <i class="fas fa-sign-out-alt"></i></a>
         {% else %}

@@ -29,3 +29,8 @@ services:
     App\Controller\:
         resource: '../src/Controller'
         tags: ['controller.service_arguments']
+
+    ConfigurableSymfony:
+      class: App\CAS\ConfigurableSymfony
+      decorates: "cas.configuration"
+      arguments: ["@ConfigurableSymfony.inner", "@request_stack"]
