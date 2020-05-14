@@ -23,11 +23,11 @@ class ConfigurableSymfony implements PropertiesInterface
     }
 
     public function offsetExists($offset) {
-        return $this->properties->offsetExists($offset);
+        return array_key_exists($offset, $this->all());
     }
 
     public function offsetGet($offset) {
-        return $this->properties->offsetGet($offset);
+        return $this->all()[$offset];
     }
 
     public function offsetSet($offset, $value) {

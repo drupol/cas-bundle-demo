@@ -30,11 +30,11 @@ class Configuration extends DefaultController
             if ($form->get('reset')->isClicked()) {
                 $request->getSession()->remove('configuration');
                 return new RedirectResponse('configuration');
-            } else {
-                $data = $form->getData();
-
-                $request->getSession()->set('configuration', Yaml::parse($data['configuration']));
             }
+
+            $data = $form->getData();
+
+            $request->getSession()->set('configuration', Yaml::parse($data['configuration']));
         }
 
         $vars = [
