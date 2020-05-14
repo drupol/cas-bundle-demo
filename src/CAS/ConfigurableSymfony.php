@@ -10,37 +10,37 @@ class ConfigurableSymfony implements PropertiesInterface
     /**
      * @var \EcPhp\CasLib\Configuration\PropertiesInterface
      */
-    private $config;
+    private $properties;
 
     /**
      * @var \Symfony\Component\HttpFoundation\RequestStack
      */
     private $requestStack;
 
-    public function __construct(PropertiesInterface $config, RequestStack $requestStack) {
-        $this->config = $config;
+    public function __construct(PropertiesInterface $properties, RequestStack $requestStack) {
+        $this->properties = $properties;
         $this->requestStack = $requestStack;
     }
 
     public function offsetExists($offset) {
-        return $this->config->offsetExists($offset);
+        return $this->properties->offsetExists($offset);
     }
 
     public function offsetGet($offset) {
-        return $this->config->offsetGet($offset);
+        return $this->properties->offsetGet($offset);
     }
 
     public function offsetSet($offset, $value) {
-        $this->config->offsetSet($offset, $value);
+        $this->properties->offsetSet($offset, $value);
     }
 
     public function offsetUnset($offset) {
-        $this->config->offsetUnset($offset);
+        $this->properties->offsetUnset($offset);
     }
 
     public function all(): array {
         return array_merge(
-            $this->config->all(),
+            $this->properties->all(),
             $this
                 ->requestStack
                 ->getCurrentRequest()

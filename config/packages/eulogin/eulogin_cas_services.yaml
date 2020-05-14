@@ -5,7 +5,7 @@ services:
     class: EcPhp\Ecas\Ecas
     arguments:
       $serverRequest: '@cas.psrrequest'
-      $properties: '@cas.configuration'
+      $properties: '@ConfigurableSymfony'
       $client: '@psr18.http_client'
       $uriFactory: '@nyholm.psr7.psr17_factory'
       $responseFactory: '@nyholm.psr7.psr17_factory'
