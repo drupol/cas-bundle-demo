@@ -10,4 +10,4 @@ services:
   ecas:
     class: EcPhp\Ecas\Ecas
     decorates: 'cas'
-    arguments: ['@ecas.inner', '@nyholm.psr7.psr17_factory', '@cas.psrrequest']
+    arguments: ['@ecas.inner', '@nyholm.psr7.psr17_factory']
