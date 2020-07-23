@@ -9,5 +9,5 @@ return [
     Symfony\Bundle\MonologBundle\MonologBundle::class => ['all' => true],
     Symfony\Bundle\WebProfilerBundle\WebProfilerBundle::class => ['all' => true],
     EcPhp\CasBundle\CasBundle::class => ['all' => true],
-    EcPhp\EuLoginBundle\EuLoginBundle::class => ['all' => true],
+    EcPhp\EuLoginBundle\EuLoginBundle::class => ['eulogin' => true],
 ];

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d49da8e4625ec80f55c841a83ebef2cb",
+    "content-hash": "ebca542e453d7b4578e232e4e5fb267e",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -153,20 +153,20 @@
         },
         {
             "name": "ecphp/cas-bundle",
-            "version": "2.1.1",
+            "version": "2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ecphp/cas-bundle.git",
-                "reference": "c28377bffed12d5c998f7d565c727af856fddf90"
+                "reference": "167e3cc2c179d6a79a24520c6dd7672293c0b85d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ecphp/cas-bundle/zipball/c28377bffed12d5c998f7d565c727af856fddf90",
-                "reference": "c28377bffed12d5c998f7d565c727af856fddf90",
+                "url": "https://api.github.com/repos/ecphp/cas-bundle/zipball/167e3cc2c179d6a79a24520c6dd7672293c0b85d",
+                "reference": "167e3cc2c179d6a79a24520c6dd7672293c0b85d",
                 "shasum": ""
             },
             "require": {
-                "ecphp/cas-lib": "^1",
+                "ecphp/cas-lib": "1.1.*",
                 "ext-json": "*",
                 "ext-simplexml": "*",
                 "nyholm/psr7": "^1.2",
@@ -180,11 +180,11 @@
                 "symfony/security-bundle": "^5.1"
             },
             "require-dev": {
-                "drupol/php-conventions": "^1.7.1",
+                "drupol/php-conventions": "^1.8.6",
                 "friends-of-phpspec/phpspec-code-coverage": "^4.3.2",
                 "infection/infection": "^0.15.3",
                 "loophp/unaltered-psr-http-message-bridge-bundle": "^1.0",
-                "phpspec/phpspec": "^6.2"
+                "phpspec/phpspec": "^6.2.1"
             },
             "suggest": {
                 "loophp/unaltered-psr-http-message-bridge-bundle": "A drop-in replacement for symfony/psr-http-message-bridge, that does not alter query parameters.",
@@ -212,20 +212,20 @@
                 "central authentication service",
                 "single sign-on"
             ],
-            "time": "2020-07-07T09:55:04+00:00"
+            "time": "2020-07-23T12:04:17+00:00"
         },
         {
             "name": "ecphp/cas-lib",
-            "version": "1.0.5",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ecphp/cas-lib.git",
-                "reference": "3ad02b2b98553a62f54a7f80941d11e2b2fa34b1"
+                "reference": "a9e6d580e7a32c9089fade8b7159d573c7db36b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ecphp/cas-lib/zipball/3ad02b2b98553a62f54a7f80941d11e2b2fa34b1",
-                "reference": "3ad02b2b98553a62f54a7f80941d11e2b2fa34b1",
+                "url": "https://api.github.com/repos/ecphp/cas-lib/zipball/a9e6d580e7a32c9089fade8b7159d573c7db36b0",
+                "reference": "a9e6d580e7a32c9089fade8b7159d573c7db36b0",
                 "shasum": ""
             },
             "require": {
@@ -241,13 +241,13 @@
                 "psr/log": "^1.1.1 || ^1.1.0"
             },
             "require-dev": {
-                "drupol/php-conventions": "^1.7.1",
+                "drupol/php-conventions": "^1.7.1 || ^1.8.6",
                 "friends-of-phpspec/phpspec-code-coverage": "^4.3.2",
-                "infection/infection": "^0.12.2 || ^0.13.6 || ^0.14.4 || ^0.15.0 || ^0.16.3",
+                "infection/infection": "^0.12.2 || ^0.13.6 || ^0.14.4 || ^0.15.3",
                 "monolog/monolog": "^1.0",
                 "nyholm/psr7": "^1.2.1",
                 "nyholm/psr7-server": "^0.4.1 || ^1.0.0",
-                "phpspec/phpspec": "^5.1.2 || ^6.1.1",
+                "phpspec/phpspec": "^5.1.2 || ^6.2.1",
                 "phpspec/prophecy": "^1.10.1",
                 "phpstan/phpstan-strict-rules": "^0.12",
                 "symfony/cache": "^4.3.9 || ^4.4.2",
@@ -270,34 +270,80 @@
                 "psr",
                 "single-sign-on"
             ],
-            "time": "2020-06-19T06:56:59+00:00"
+            "time": "2020-07-23T11:41:30+00:00"
         },
         {
-            "name": "ecphp/ecas",
-            "version": "2.0.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ecphp/ecas.git",
-                "reference": "8058ac3fe4b5a3456d0e3170cc569e1c03cab955"
-            },
+            "name": "ecphp/ec-reverse-proxy-bundle",
+            "version": "dev-master",
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ecphp/ecas/zipball/8058ac3fe4b5a3456d0e3170cc569e1c03cab955",
-                "reference": "8058ac3fe4b5a3456d0e3170cc569e1c03cab955",
-                "shasum": ""
+                "type": "path",
+                "url": "/home/pol/dev/git/b4/ecphp-ec-reverse-proxy-bundle",
+                "reference": "f4257e90bdac3dd481420d1bf049079a63ada493"
             },
             "require": {
-                "ecphp/cas-lib": "^1",
                 "php": ">= 7.1.3"
             },
             "require-dev": {
                 "drupol/php-conventions": "^1.7.1",
                 "friends-of-phpspec/phpspec-code-coverage": "^4.3.2",
-                "infection/infection": "^0.13.6 || ^0.15.0",
+                "infection/infection": "^0.13.6 || ^0.15.3 || ^0.16.3",
+                "infection/phpspec-adapter": "^0.1.1",
+                "phpspec/phpspec": "^5.1.2 || ^6.2",
+                "symfony/http-kernel": "^4.4 || ^5.1",
+                "symfony/var-dumper": "^5.1"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-4": {
+                    "EcPhp\\EcReverseProxyBundle\\": "src/"
+                }
+            },
+            "scripts": {
+                "grumphp": [
+                    "./vendor/bin/grumphp run"
+                ],
+                "phpspec": [
+                    "./vendor/bin/phpspec run"
+                ]
+            },
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "TODO",
+            "homepage": "http://github.com/ecphp/ec-reverse-proxy-bundle",
+            "keywords": [
+                "TODO"
+            ],
+            "transport-options": {
+                "relative": false
+            }
+        },
+        {
+            "name": "ecphp/ecas",
+            "version": "2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ecphp/ecas.git",
+                "reference": "5af449a60e13f2d521b2d772522b4d544bf08b55"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ecphp/ecas/zipball/5af449a60e13f2d521b2d772522b4d544bf08b55",
+                "reference": "5af449a60e13f2d521b2d772522b4d544bf08b55",
+                "shasum": ""
+            },
+            "require": {
+                "ecphp/cas-lib": "1.1.*",
+                "php": ">= 7.1.3"
+            },
+            "require-dev": {
+                "drupol/php-conventions": "^1.8.6",
+                "friends-of-phpspec/phpspec-code-coverage": "^4.3.2",
+                "infection/infection": "^0.13.6 || ^0.15.3",
                 "monolog/monolog": "^1.0",
                 "nyholm/psr7": "^1.2.1",
                 "nyholm/psr7-server": "^0.4.1 || ^1.0.0",
-                "phpspec/phpspec": "^5.1.2 || ^6.1.1",
+                "phpspec/phpspec": "^5.1.2 || ^6.2.1",
                 "phpstan/phpstan-strict-rules": "^0.12",
                 "symfony/cache": "^4.4 || ^5",
                 "symfony/http-client": "^4.4 || ^5"
@@ -313,35 +359,35 @@
                 "BSD-3-Clause"
             ],
             "description": "CAS library to communicate with ECAS / EU Login",
-            "time": "2020-06-22T11:08:43+00:00"
+            "time": "2020-07-23T11:48:48+00:00"
         },
         {
             "name": "ecphp/eu-login-bundle",
-            "version": "2.2.2",
+            "version": "2.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ecphp/eu-login-bundle.git",
-                "reference": "58e87bb6c5306ea09d3cf564eb6a50a65ba03fb0"
+                "reference": "baed28e4b4d9345ffb70c5b8fed49a9d55980f68"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ecphp/eu-login-bundle/zipball/58e87bb6c5306ea09d3cf564eb6a50a65ba03fb0",
-                "reference": "58e87bb6c5306ea09d3cf564eb6a50a65ba03fb0",
+                "url": "https://api.github.com/repos/ecphp/eu-login-bundle/zipball/baed28e4b4d9345ffb70c5b8fed49a9d55980f68",
+                "reference": "baed28e4b4d9345ffb70c5b8fed49a9d55980f68",
                 "shasum": ""
             },
             "require": {
-                "ecphp/cas-bundle": "^2",
-                "ecphp/ecas": "^2",
+                "ecphp/cas-bundle": "2.2.*",
+                "ecphp/ecas": "2.1.*",
                 "ext-json": "*",
                 "ext-simplexml": "*",
                 "php": ">= 7.2.5",
                 "symfony/framework-bundle": "^5.1"
             },
             "require-dev": {
-                "drupol/php-conventions": "^1.7.1",
+                "drupol/php-conventions": "^1.8.6",
                 "friends-of-phpspec/phpspec-code-coverage": "^4.3.2",
                 "infection/infection": "^0.15.3",
-                "phpspec/phpspec": "^6.2"
+                "phpspec/phpspec": "^6.2.1"
             },
             "type": "symfony-bundle",
             "autoload": {
@@ -363,7 +409,7 @@
                 "european commission",
                 "single sign-on"
             ],
-            "time": "2020-06-29T07:08:32+00:00"
+            "time": "2020-07-23T12:13:14+00:00"
         },
         {
             "name": "league/uri-query-parser",
@@ -429,16 +475,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "2.1.0",
+            "version": "2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "38914429aac460e8e4616c8cb486ecb40ec90bb1"
+                "reference": "f9eee5cec93dfb313a38b6b288741e84e53f02d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/38914429aac460e8e4616c8cb486ecb40ec90bb1",
-                "reference": "38914429aac460e8e4616c8cb486ecb40ec90bb1",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/f9eee5cec93dfb313a38b6b288741e84e53f02d5",
+                "reference": "f9eee5cec93dfb313a38b6b288741e84e53f02d5",
                 "shasum": ""
             },
             "require": {
@@ -516,7 +562,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-05-22T08:12:19+00:00"
+            "time": "2020-07-23T08:41:23+00:00"
         },
         {
             "name": "nyholm/psr7",
@@ -2085,16 +2131,16 @@
         },
         {
             "name": "symfony/flex",
-            "version": "v1.8.4",
+            "version": "v1.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/flex.git",
-                "reference": "7df5a72c7664baab629ec33de7890e9e3996b51b"
+                "reference": "0e752e47d8382361ca2d7ef016f549828185ddb6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/flex/zipball/7df5a72c7664baab629ec33de7890e9e3996b51b",
-                "reference": "7df5a72c7664baab629ec33de7890e9e3996b51b",
+                "url": "https://api.github.com/repos/symfony/flex/zipball/0e752e47d8382361ca2d7ef016f549828185ddb6",
+                "reference": "0e752e47d8382361ca2d7ef016f549828185ddb6",
                 "shasum": ""
             },
             "require": {
@@ -2144,7 +2190,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-06-16T23:10:41+00:00"
+            "time": "2020-07-14T15:18:33+00:00"
         },
         {
             "name": "symfony/form",
@@ -3126,16 +3172,16 @@
         },
         {
             "name": "symfony/polyfill-intl-grapheme",
-            "version": "v1.17.1",
+            "version": "v1.18.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-grapheme.git",
-                "reference": "6e4dbcf5e81eba86e36731f94fe56b1726835846"
+                "reference": "b740103edbdcc39602239ee8860f0f45a8eb9aa5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-grapheme/zipball/6e4dbcf5e81eba86e36731f94fe56b1726835846",
-                "reference": "6e4dbcf5e81eba86e36731f94fe56b1726835846",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-grapheme/zipball/b740103edbdcc39602239ee8860f0f45a8eb9aa5",
+                "reference": "b740103edbdcc39602239ee8860f0f45a8eb9aa5",
                 "shasum": ""
             },
             "require": {
@@ -3147,7 +3193,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.17-dev"
+                    "dev-master": "1.18-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -3200,20 +3246,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-06-06T08:46:27+00:00"
+            "time": "2020-07-14T12:35:20+00:00"
         },
         {
             "name": "symfony/polyfill-intl-icu",
-            "version": "v1.17.1",
+            "version": "v1.18.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-icu.git",
-                "reference": "7b5e03aeb88cc8b4b2b136e34b0fc0830e86cd4d"
+                "reference": "4e45a6e39041a9cc78835b11abc47874ae302a55"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-icu/zipball/7b5e03aeb88cc8b4b2b136e34b0fc0830e86cd4d",
-                "reference": "7b5e03aeb88cc8b4b2b136e34b0fc0830e86cd4d",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-icu/zipball/4e45a6e39041a9cc78835b11abc47874ae302a55",
+                "reference": "4e45a6e39041a9cc78835b11abc47874ae302a55",
                 "shasum": ""
             },
             "require": {
@@ -3226,7 +3272,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.17-dev"
+                    "dev-master": "1.18-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -3276,20 +3322,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-06-06T08:46:27+00:00"
+            "time": "2020-07-14T12:35:20+00:00"
         },
         {
             "name": "symfony/polyfill-intl-normalizer",
-            "version": "v1.17.1",
+            "version": "v1.18.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-normalizer.git",
-                "reference": "40309d1700e8f72447bb9e7b54af756eeea35620"
+                "reference": "37078a8dd4a2a1e9ab0231af7c6cb671b2ed5a7e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-normalizer/zipball/40309d1700e8f72447bb9e7b54af756eeea35620",
-                "reference": "40309d1700e8f72447bb9e7b54af756eeea35620",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-normalizer/zipball/37078a8dd4a2a1e9ab0231af7c6cb671b2ed5a7e",
+                "reference": "37078a8dd4a2a1e9ab0231af7c6cb671b2ed5a7e",
                 "shasum": ""
             },
             "require": {
@@ -3301,7 +3347,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.17-dev"
+                    "dev-master": "1.18-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -3357,20 +3403,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-06-14T14:40:37+00:00"
+            "time": "2020-07-14T12:35:20+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.17.1",
+            "version": "v1.18.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "7110338d81ce1cbc3e273136e4574663627037a7"
+                "reference": "a6977d63bf9a0ad4c65cd352709e230876f9904a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/7110338d81ce1cbc3e273136e4574663627037a7",
-                "reference": "7110338d81ce1cbc3e273136e4574663627037a7",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/a6977d63bf9a0ad4c65cd352709e230876f9904a",
+                "reference": "a6977d63bf9a0ad4c65cd352709e230876f9904a",
                 "shasum": ""
             },
             "require": {
@@ -3382,7 +3428,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.17-dev"
+                    "dev-master": "1.18-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -3434,20 +3480,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-06-06T08:46:27+00:00"
+            "time": "2020-07-14T12:35:20+00:00"
         },
         {
             "name": "symfony/polyfill-php73",
-            "version": "v1.17.1",
+            "version": "v1.18.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php73.git",
-                "reference": "fa0837fe02d617d31fbb25f990655861bb27bd1a"
+                "reference": "fffa1a52a023e782cdcc221d781fe1ec8f87fcca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php73/zipball/fa0837fe02d617d31fbb25f990655861bb27bd1a",
-                "reference": "fa0837fe02d617d31fbb25f990655861bb27bd1a",
+                "url": "https://api.github.com/repos/symfony/polyfill-php73/zipball/fffa1a52a023e782cdcc221d781fe1ec8f87fcca",
+                "reference": "fffa1a52a023e782cdcc221d781fe1ec8f87fcca",
                 "shasum": ""
             },
             "require": {
@@ -3456,7 +3502,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.17-dev"
+                    "dev-master": "1.18-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -3510,20 +3556,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-06-06T08:46:27+00:00"
+            "time": "2020-07-14T12:35:20+00:00"
         },
         {
             "name": "symfony/polyfill-php80",
-            "version": "v1.17.1",
+            "version": "v1.18.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php80.git",
-                "reference": "4a5b6bba3259902e386eb80dd1956181ee90b5b2"
+                "reference": "d87d5766cbf48d72388a9f6b85f280c8ad51f981"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/4a5b6bba3259902e386eb80dd1956181ee90b5b2",
-                "reference": "4a5b6bba3259902e386eb80dd1956181ee90b5b2",
+                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/d87d5766cbf48d72388a9f6b85f280c8ad51f981",
+                "reference": "d87d5766cbf48d72388a9f6b85f280c8ad51f981",
                 "shasum": ""
             },
             "require": {
@@ -3532,7 +3578,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.17-dev"
+                    "dev-master": "1.18-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -3590,7 +3636,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-06-06T08:46:27+00:00"
+            "time": "2020-07-14T12:35:20+00:00"
         },
         {
             "name": "symfony/property-access",
@@ -5449,7 +5495,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "ecphp/ec-reverse-proxy-bundle": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
