@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ebca542e453d7b4578e232e4e5fb267e",
+    "content-hash": "17ce2f5777df026bb2ac90d713041738",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -271,52 +271,6 @@
                 "single-sign-on"
             ],
             "time": "2020-07-23T11:41:30+00:00"
-        },
-        {
-            "name": "ecphp/ec-reverse-proxy-bundle",
-            "version": "dev-master",
-            "dist": {
-                "type": "path",
-                "url": "/home/pol/dev/git/b4/ecphp-ec-reverse-proxy-bundle",
-                "reference": "f4257e90bdac3dd481420d1bf049079a63ada493"
-            },
-            "require": {
-                "php": ">= 7.1.3"
-            },
-            "require-dev": {
-                "drupol/php-conventions": "^1.7.1",
-                "friends-of-phpspec/phpspec-code-coverage": "^4.3.2",
-                "infection/infection": "^0.13.6 || ^0.15.3 || ^0.16.3",
-                "infection/phpspec-adapter": "^0.1.1",
-                "phpspec/phpspec": "^5.1.2 || ^6.2",
-                "symfony/http-kernel": "^4.4 || ^5.1",
-                "symfony/var-dumper": "^5.1"
-            },
-            "type": "symfony-bundle",
-            "autoload": {
-                "psr-4": {
-                    "EcPhp\\EcReverseProxyBundle\\": "src/"
-                }
-            },
-            "scripts": {
-                "grumphp": [
-                    "./vendor/bin/grumphp run"
-                ],
-                "phpspec": [
-                    "./vendor/bin/phpspec run"
-                ]
-            },
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "description": "TODO",
-            "homepage": "http://github.com/ecphp/ec-reverse-proxy-bundle",
-            "keywords": [
-                "TODO"
-            ],
-            "transport-options": {
-                "relative": false
-            }
         },
         {
             "name": "ecphp/ecas",
@@ -5495,9 +5449,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "ecphp/ec-reverse-proxy-bundle": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

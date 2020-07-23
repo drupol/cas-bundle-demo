@@ -26,9 +26,6 @@
     "ecphp/cas-lib": {
         "version": "1.1.0"
     },
-    "ecphp/ec-reverse-proxy-bundle": {
-        "version": "dev-master"
-    },
     "ecphp/ecas": {
         "version": "2.1.0"
     },
