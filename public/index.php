@@ -15,6 +15,8 @@ if ($_SERVER['APP_DEBUG']) {
     Debug::enable();
 }
 
+Request::setTrustedProxies(array($_SERVER['REMOTE_ADDR']), Request::HEADER_X_FORWARDED_AWS_ELB);
+
 if ($trustedProxies = $_SERVER['TRUSTED_PROXIES'] ?? false) {
     Request::setTrustedProxies(explode(',', $trustedProxies), Request::HEADER_X_FORWARDED_AWS_ELB);
 }
