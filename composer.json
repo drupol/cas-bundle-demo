@@ -39,6 +39,7 @@
         "symfony/symfony": "*"
     },
     "require-dev": {
+        "symfony/stopwatch": "^5.2"
     },
     "replace": {
         "paragonie/random_compat": "2.*",
