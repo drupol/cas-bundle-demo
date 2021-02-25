@@ -8,6 +8,7 @@ use App\Controller\DefaultController;
 use App\Form\Type\PgtRequest;
 use App\Form\Type\PgtValidate;
 use EcPhp\CasLib\CasInterface;
+use EcPhp\CasLib\Introspection\Contract\IntrospectorInterface;
 use EcPhp\CasLib\Introspection\Contract\Proxy;
 use EcPhp\CasLib\Introspection\Contract\ServiceValidate;
 use EcPhp\CasLib\Introspection\Introspector;
@@ -114,7 +115,7 @@ class PageController extends DefaultController
      *
      * @return \Symfony\Component\HttpFoundation\Response
      */
-    public function pgtForm(Request $request, CasInterface $cas)
+    public function pgtForm(Request $request, CasInterface $cas, IntrospectorInterface $introspector)
     {
         $pt = null;
 
@@ -129,7 +130,7 @@ class PageController extends DefaultController
 
         if ($formRequest->isSubmitted()) {
             if (null !== $response = $cas->requestProxyTicket($formRequest->getData())) {
-                $instrospect = Introspector::detect($response);
+                $instrospect = $introspector->detect($response);
 
                 if ($instrospect instanceof Proxy) {
                     $pt = $instrospect->getProxyTicket();
@@ -152,7 +153,7 @@ class PageController extends DefaultController
             $response = $cas->requestProxyValidate(['service' => $parameters['service'], 'ticket' => $parameters['ticket']]);
 
             if (null !== $response) {
-                $introspect = Introspector::detect($response);
+                $introspect = $introspector->detect($response);
 
                 if ($introspect instanceof ServiceValidate) {
                     $formValidateResult
