@@ -3,39 +3,19 @@ cas:
   protocol:
     login:
       path: /login
-      allowed_parameters:
-        - service
-        - renew
-        - gateway
     serviceValidate:
       path: /p3/serviceValidate
-      allowed_parameters:
-        - service
-        - pgtUrl
-        - renew
-        - format
       default_parameters:
         format: JSON
         pgtUrl: cas_bundle_proxy_callback
     logout:
       path: /logout
-      allowed_parameters:
-        - service
       default_parameters:
         service: homepage
     proxy:
       path: /proxy
-      allowed_parameters:
-        - targetService
-        - pgt
     proxyValidate:
       path: /p3/proxyValidate
-      allowed_parameters:
-        - service
-        - ticket
-        - pgtUrl
-        - format
-        - foo
       default_parameters:
         foo: bar
         format: JSON

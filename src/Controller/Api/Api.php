@@ -7,13 +7,9 @@ namespace App\Controller\Api;
 use App\Controller\DefaultController;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
-use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
-/**
- * Class Api.
- */
-class Api extends DefaultController
+final class Api extends DefaultController
 {
     /**
      * @Route("/api", name="page_api")

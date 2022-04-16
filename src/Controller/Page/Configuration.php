@@ -11,9 +11,8 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\Yaml\Yaml;
 
-class Configuration extends DefaultController
+final class Configuration extends DefaultController
 {
-
     /**
      * @Route("/configuration", name="configuration")
      *

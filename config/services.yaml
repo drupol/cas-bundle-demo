@@ -30,7 +30,6 @@ services:
         resource: '../src/Controller'
         tags: ['controller.service_arguments']
 
-    ConfigurableSymfony:
-      class: App\CAS\ConfigurableSymfony
-      decorates: "cas.configuration"
-      arguments: ["@ConfigurableSymfony.inner", "@request_stack"]
+    App\CAS\ConfigurableSymfony:
+      decorates: EcPhp\CasLib\Contract\Configuration\PropertiesInterface
+      arguments: ["@.inner", "@request_stack"]

@@ -1,8 +1,0 @@
-security:
-    providers:
-        eulogin:
-            id: eulogin.userprovider
-    firewalls:
-        default:
-            guard:
-                provider: eulogin

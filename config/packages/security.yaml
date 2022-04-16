@@ -1,10 +1,9 @@
 security:
+    enable_authenticator_manager: true
     firewalls:
         default:
-            anonymous: ~
-            guard:
-                provider: cas
-                authenticators:
-                    - cas.guardauthenticator
+            custom_authenticators:
+                - EcPhp\CasBundle\Security\CasAuthenticator
+
     access_control:
         - { path: ^/api, role: ROLE_CAS_AUTHENTICATED }

@@ -1,4 +1,0 @@
-security:
-    providers:
-        eulogin:
-            id: eulogin.userprovider
